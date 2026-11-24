@@ -59,7 +59,7 @@ fun ProfilesScreen(
     onShare: () -> Unit,
     onHelp: () -> Unit
 ) {
-    LaunchedEffect(Unit) { speaker.speak("أهلاً وسهلاً في مدرسة غزة الصغيرة. من يريد أن يتعلّم اليوم؟") }
+    LaunchedEffect(Unit) { speaker.speak("أَهْلًا وَسَهْلًا فِي مَدْرَسَةِ غَزَّةَ الصَّغِيرَة. مَنْ يُرِيدُ أَنْ يَتَعَلَّمَ اليَوْم؟") }
     Column(
         scrollCol().verticalScroll(rememberScrollState()).padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
@@ -140,7 +140,7 @@ fun HomeScreen(
     onSubject: (String) -> Unit,
     onCalm: () -> Unit
 ) {
-    LaunchedEffect(p.id) { speaker.speak("أهلاً يا ${p.name}") }
+    LaunchedEffect(p.id) { speaker.speak("أَهْلًا يَا ${p.name}") }
     Column(scrollCol().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp)) {
         TopBar("${p.avatar} أهلاً يا ${p.name}", onBack)
         Gap(8)
@@ -182,7 +182,7 @@ fun CalmScreen(
     onFeelings: () -> Unit,
     onStory: (Int) -> Unit
 ) {
-    LaunchedEffect(Unit) { speaker.speak("ركن الهدوء. هنا نرتاح قليلاً") }
+    LaunchedEffect(Unit) { speaker.speak("رُكْنُ الهُدُوء. هُنَا نَرْتَاحُ قَلِيلًا") }
     Column(scrollCol().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp)) {
         TopBar("ركن الهدوء 🌿", onBack)
         Gap(8)
@@ -204,14 +204,14 @@ fun BreathingScreen(speaker: Speaker, onBack: () -> Unit) {
     LaunchedEffect(Unit) {
         while (rounds < 5) {
             inhale = true
-            speaker.speak("خذ نفساً عميقاً")
+            speaker.speak("خُذْ نَفَسًا عَمِيقًا")
             delay(4000)
             inhale = false
-            speaker.speak("أخرج النفس ببطء")
+            speaker.speak("أَخْرِجِ النَّفَسَ بِبُطْء")
             delay(4000)
             rounds++
         }
-        speaker.speak("أحسنت. أنت الآن أهدأ")
+        speaker.speak("أَحْسَنْت. أَنْتَ الآنَ أَهْدَأ")
     }
     val scale by animateFloatAsState(if (inhale && rounds < 5) 1f else 0.55f, tween(4000), label = "breath")
     Column(Modifier.fillMaxSize().padding(horizontal = 16.dp), horizontalAlignment = Alignment.CenterHorizontally) {
@@ -239,17 +239,17 @@ fun BreathingScreen(speaker: Speaker, onBack: () -> Unit) {
 }
 
 private val FEELINGS = listOf(
-    Triple("😊", "مبسوط", "رائع! الفرح جميل، شاركه مع من تحب."),
-    Triple("😢", "حزين", "لا بأس أن تحزن. خذ نفساً عميقاً، واحكِ لشخص كبير تثق به."),
-    Triple("😠", "غاضب", "الغضب شعور طبيعي. لنعدّ معاً ببطء من واحد إلى خمسة، ثم نتنفّس."),
-    Triple("😨", "خائف", "أنت لست وحدك. اقترب من شخص كبير تحبه، وجرّب تمرين التنفّس."),
-    Triple("😴", "تعبان", "جسمك يحتاج إلى راحة. اشرب قليلاً من الماء، واسترح قليلاً.")
+    Triple("😊", "مبسوط", "رَائِع! الفَرَحُ جَمِيل، شَارِكْهُ مَعَ مَنْ تُحِبّ."),
+    Triple("😢", "حزين", "لَا بَأْسَ أَنْ تَحْزَن. خُذْ نَفَسًا عَمِيقًا، وَاحْكِ لِشَخْصٍ كَبِيرٍ تَثِقُ بِه."),
+    Triple("😠", "غاضب", "الغَضَبُ شُعُورٌ طَبِيعِيّ. لِنَعُدَّ مَعًا بِبُطْءٍ مِنْ وَاحِدٍ إِلَى خَمْسَة، ثُمَّ نَتَنَفَّس."),
+    Triple("😨", "خائف", "أَنْتَ لَسْتَ وَحْدَك. اِقْتَرِبْ مِنْ شَخْصٍ كَبِيرٍ تُحِبُّه، وَجَرِّبْ تَمْرِينَ التَّنَفُّس."),
+    Triple("😴", "تعبان", "جِسْمُكَ يَحْتَاجُ إِلَى رَاحَة. اِشْرَبْ قَلِيلًا مِنَ المَاء، وَاسْتَرِحْ قَلِيلًا.")
 )
 
 @Composable
 fun FeelingsScreen(speaker: Speaker, onBack: () -> Unit) {
     var picked by remember { mutableIntStateOf(-1) }
-    LaunchedEffect(Unit) { speaker.speak("كيف تشعر اليوم؟") }
+    LaunchedEffect(Unit) { speaker.speak("كَيْفَ تَشْعُرُ اليَوْم؟") }
     Column(scrollCol().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp)) {
         TopBar("كيف تشعر اليوم؟ 💛", onBack)
         Gap(8)
@@ -404,15 +404,32 @@ private fun ParentDashboard(
             Text("الأرقام العربية (١٢٣) بدل (123)", Modifier.weight(1f), fontSize = 18.sp, color = Ink)
             Switch(checked = eastern, onCheckedChange = onEastern)
         }
-        if (!speaker.arabicAvailable) {
-            Text(
-                "🔇 الصوت العربي غير مثبّت على هذا الهاتف. لتفعيله مرة واحدة (يحتاج إنترنت مرة واحدة فقط): " +
-                    "الإعدادات ← تحويل النص إلى كلام ← محرّك Google ← تثبيت بيانات الصوت ← العربية.",
-                Modifier.clip(RoundedCornerShape(16.dp)).background(Color(0xFFFCEBCF)).padding(12.dp),
-                fontSize = 15.sp, color = Ink
-            )
-            Gap(8)
+        Text("الصوت", fontSize = 20.sp, fontWeight = FontWeight.Bold, color = Orange)
+        Gap(4)
+        Text(
+            when {
+                !speaker.googleInstalled -> "🔇 للحصول على لفظ عربي صحيح، ثبّت تطبيق «Speech Services by Google» (مرة واحدة، يحتاج إنترنت)."
+                !speaker.arabicAvailable -> "🔇 الصوت العربي غير مثبّت. اضغط الزر بالأسفل ونزّل «العربية» (مرة واحدة، يحتاج إنترنت)."
+                else -> "🔊 الصوت العربي يعمل عبر محرّك Google."
+            },
+            Modifier.fillMaxWidth().clip(RoundedCornerShape(16.dp))
+                .background(if (speaker.arabicAvailable && speaker.googleInstalled) Soft else Color(0xFFFCEBCF)).padding(12.dp),
+            fontSize = 15.sp, color = Ink
+        )
+        Gap(8)
+        val ctx = androidx.compose.ui.platform.LocalContext.current
+        BigButton(
+            if (speaker.googleInstalled) "⬇️ تنزيل الصوت العربي" else "⬇️ تثبيت محرّك صوت Google",
+            Modifier.fillMaxWidth(), color = Orange
+        ) { Speaker.installArabicVoice(ctx) }
+        Gap(8)
+        BigButton("⚙️ إعدادات الصوت في الهاتف", Modifier.fillMaxWidth(), color = Color(0xFF6B8F7E)) { Speaker.openTtsSettings(ctx) }
+        Gap(8)
+        BigButton("🔊 جرّب الصوت", Modifier.fillMaxWidth(), color = Green) {
+            speaker.speak("مَرْحَبًا! هَذَا حَرْفُ البَاء. بَطَّة")
         }
+        Text("إذا تغيّر الصوت بعد التنزيل، أغلق التطبيق وافتحه من جديد.", fontSize = 14.sp, color = Color.Gray)
+        Gap(12)
         BigButton("تغيير الرقم السري", Modifier.fillMaxWidth(), color = Color(0xFF6B8F7E)) {
             store.pin = null; onLock()
         }

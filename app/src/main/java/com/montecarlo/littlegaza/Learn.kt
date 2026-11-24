@@ -66,11 +66,11 @@ fun ExerciseView(
         if (solved) return
         if (i == ex.answer) {
             solved = true
-            speaker.speak("أحسنت")
+            speaker.speak("أَحْسَنْت")
         } else if (allowRetry) {
             firstTry = false
             wrong.add(i)
-            speaker.speak("حاول مرة أخرى")
+            speaker.speak("حَاوِلْ مَرَّةً أُخْرَى")
         } else {
             onDone(false)
         }
@@ -289,7 +289,7 @@ fun LessonScreen(
                 val stars = starsFor(correct, n)
                 LaunchedEffect(lesson.id) {
                     onFinished(stars)
-                    speaker.speak(if (stars == 3) "ممتاز! أنت بطل" else "أحسنت! أنهيت الدرس")
+                    speaker.speak(if (stars == 3) "مُمْتَاز! أَنْتَ بَطَل" else "أَحْسَنْت! أَنْهَيْتَ الدَّرْس")
                 }
                 Column(
                     Modifier.fillMaxWidth().verticalScroll(rememberScrollState()),
@@ -359,7 +359,7 @@ fun PlacementScreen(
     Column(Modifier.fillMaxSize().padding(horizontal = 12.dp)) {
         TopBar("نتعرّف على مستواك 🎯", onBack)
         if (finished) {
-            LaunchedEffect(Unit) { speaker.speak("رائع! جهّزنا لك الدروس المناسبة") }
+            LaunchedEffect(Unit) { speaker.speak("رَائِع! جَهَّزْنَا لَكَ الدُّرُوسَ المُنَاسِبَة") }
             Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
                 Gap(40)
                 Text("🎉", fontSize = 96.sp)
@@ -414,7 +414,7 @@ private fun PlacementStep(
         val qs = content.placement[s.id].orEmpty().filter { it.level == stage }.take(3)
         when {
             stage == 0 -> {
-                LaunchedEffect(sIdx) { speaker.speak("الآن ${s.title}. أجب على قدر ما تعرف، ولا بأس إن لم تعرف") }
+                LaunchedEffect(sIdx) { speaker.speak("الآنَ ${s.speakTitle}. أَجِبْ عَلَى قَدْرِ مَا تَعْرِف، وَلَا بَأْسَ إِنْ لَمْ تَعْرِف") }
                 Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
                     Gap(40)
                     Text(s.icon, fontSize = 96.sp)

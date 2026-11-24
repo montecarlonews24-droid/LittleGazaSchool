@@ -29,7 +29,7 @@ data class Lesson(
 
 data class Level(val level: Int, val title: String, val lessons: List<Lesson>)
 
-data class Subject(val id: String, val title: String, val icon: String, val levels: List<Level>) {
+data class Subject(val id: String, val title: String, val speakTitle: String, val icon: String, val levels: List<Level>) {
     val allLessons: List<Lesson> = levels.flatMap { it.lessons }
 }
 
@@ -103,7 +103,7 @@ class Content(
                     }
                     levels.add(Level(lvNum, lo.optString("title"), lessons))
                 }
-                subjects.add(Subject(sid, so.optString("title"), so.optString("icon"), levels))
+                subjects.add(Subject(sid, so.optString("title"), so.optString("speakTitle", so.optString("title")), so.optString("icon"), levels))
             }
 
             val placement = mutableMapOf<String, List<PlacementQ>>()
