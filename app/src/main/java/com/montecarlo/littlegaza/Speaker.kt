@@ -76,7 +76,6 @@ class Speaker(ctx: Context) : TextToSpeech.OnInitListener {
 
     companion object {
         const val GOOGLE_TTS = "com.google.android.tts"
-        private val WORD_END = Regex("([بتثجحخدذرزسشصضطظعغفقكلمنهءأؤئ])(?=[\\s.,،؛؟!:]|$)")
 
         fun isInstalled(ctx: Context, pkg: String): Boolean = try {
             ctx.packageManager.getPackageInfo(pkg, 0)
@@ -94,9 +93,13 @@ class Speaker(ctx: Context) : TextToSpeech.OnInitListener {
                 if (Character.getType(c) == Character.OTHER_SYMBOL.toInt()) continue
                 sb.append(c)
             }
-            // A bare consonant at the end of a word gets a pausal sukun ("البَاءْ", "أَحْسَنْتْ"),
-            // otherwise the engine adds a vowel and says "البائي" / "أحسنتو".
-            return WORD_END.replace(sb.toString().replace("…", "، "), "$1ْ").trim()
+            // No tashkeel: Google's Arabic voice reads plain text more naturally
+            // (with tashkeel it said "العربيتي" / "أحسنتو"). Single letters keep their
+            // harakah so the harakat lessons still say "بَ / بُ / بِ".
+            return sb.toString().replace("…", "، ").split(" ").joinToString(" ") { w ->
+                val base = w.count { it in '\u0621'..'\u064A' }
+                if (base <= 1) w else w.filterNot { it in '\u064B'..'\u0652' || it == '\u0670' }
+            }.trim()
         }
 
         /** Opens the phone's text-to-speech settings. */
