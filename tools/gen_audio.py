@@ -17,9 +17,10 @@ OUT = os.path.join(ROOT, "app/src/main/assets/voice")
 BUDGET_SEC = int(os.environ.get("VOICE_BUDGET_SEC", "1500"))
 VOICE = os.environ.get("VOICE_NAME", "Kore")
 MODELS = ["gemini-3.1-flash-tts-preview", "gemini-2.5-flash-preview-tts", "gemini-2.5-flash-tts"]
-PROMPT = ("Read the following Arabic text aloud in clear Modern Standard Arabic (فصحى), "
-          "with a warm, gentle, slightly slow voice for a young child. "
-          "Follow the tashkeel exactly. Read only the text, nothing else:\n\n")
+PROMPT = ("Read the following text aloud exactly as written, for a young child, "
+          "with a warm, gentle, slightly slow voice. Arabic parts in clear Modern Standard Arabic (فصحى), "
+          "following the tashkeel exactly; English words and letters in clear native English pronunciation. "
+          "Read only the text, nothing else:\n\n")
 
 
 def clip_name(text):

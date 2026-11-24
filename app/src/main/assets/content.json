@@ -6551,6 +6551,2936 @@
      ]
     }
    ]
+  },
+  {
+   "id": "en",
+   "title": "اللغة الإنجليزية",
+   "speakTitle": "اللُّغَةُ الإِنْجِلِيزِيَّة",
+   "icon": "🔤",
+   "levels": [
+    {
+     "level": 1,
+     "title": "المستوى الأول: الحروف A - Z",
+     "lessons": [
+      {
+       "id": "en1_01",
+       "title": "الحروف A B",
+       "icon": "🍎",
+       "introBig": "Aa  Bb",
+       "introText": "A a — 🍎 apple\nB b — ⚽ ball",
+       "introSpeak": "This is the letter A. A, apple. This is the letter B. B, ball.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف A؟",
+         "speak": "أَيْنَ حَرْف A؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "A",
+          "S",
+          "U",
+          "D"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من A؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ A؟",
+         "show": "A",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "o",
+          "s",
+          "a",
+          "u"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف A؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف A؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "☂️ umbrella",
+          "📦 box",
+          "🍎 apple",
+          "🌙 moon"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف B؟",
+         "speak": "أَيْنَ حَرْف B؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "B",
+          "D",
+          "R",
+          "P"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من B؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ B؟",
+         "show": "B",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "b",
+          "p",
+          "d",
+          "r"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف B؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف B؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "👖 jeans",
+          "🍦 ice cream",
+          "⚽ ball",
+          "💛 yellow"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter A.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "A",
+          "U",
+          "S",
+          "M"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "en1_02",
+       "title": "الحروف C D",
+       "icon": "🐱",
+       "introBig": "Cc  Dd",
+       "introText": "C c — 🐱 cat\nD d — 🐶 dog",
+       "introSpeak": "This is the letter C. C, cat. This is the letter D. D, dog.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف C؟",
+         "speak": "أَيْنَ حَرْف C؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "O",
+          "Q",
+          "G",
+          "C"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من C؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ C؟",
+         "show": "C",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "q",
+          "c",
+          "o",
+          "g"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف C؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف C؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "👸 queen",
+          "🖊️ pen",
+          "🐟 fish",
+          "🐱 cat"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف D؟",
+         "speak": "أَيْنَ حَرْف D؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "P",
+          "R",
+          "D",
+          "B"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من D؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ D؟",
+         "show": "D",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "p",
+          "d",
+          "b",
+          "r"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف D؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف D؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐶 dog",
+          "🍊 orange",
+          "🍎 apple",
+          "📦 box"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter D.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "R",
+          "P",
+          "B",
+          "D"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "en1_03",
+       "title": "الحروف E F",
+       "icon": "🥚",
+       "introBig": "Ee  Ff",
+       "introText": "E e — 🥚 egg\nF f — 🐟 fish",
+       "introSpeak": "This is the letter E. E, egg. This is the letter F. F, fish.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف E؟",
+         "speak": "أَيْنَ حَرْف E؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "F",
+          "H",
+          "E",
+          "T"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من E؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ E؟",
+         "show": "E",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "e",
+          "h",
+          "t",
+          "f"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف E؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف E؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "☂️ umbrella",
+          "🥚 egg",
+          "🌙 moon",
+          "🐰 rabbit"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف F؟",
+         "speak": "أَيْنَ حَرْف F؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "H",
+          "E",
+          "F",
+          "T"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من F؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ F؟",
+         "show": "F",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "f",
+          "t",
+          "h",
+          "e"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف F؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف F؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "📦 box",
+          "🐟 fish",
+          "🥚 egg",
+          "⚽ ball"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter F.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "T",
+          "F",
+          "H",
+          "E"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "en1_04",
+       "title": "الحروف G H",
+       "icon": "🍇",
+       "introBig": "Gg  Hh",
+       "introText": "G g — 🍇 grapes\nH h — 🎩 hat",
+       "introSpeak": "This is the letter G. G, grapes. This is the letter H. H, hat.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف G؟",
+         "speak": "أَيْنَ حَرْف G؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "G",
+          "Q",
+          "C",
+          "O"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من G؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ G؟",
+         "show": "G",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "c",
+          "q",
+          "o",
+          "g"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف G؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف G؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐟 fish",
+          "🍇 grapes",
+          "📦 box",
+          "⌚ watch"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف H؟",
+         "speak": "أَيْنَ حَرْف H؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "T",
+          "F",
+          "H",
+          "E"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من H؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ H؟",
+         "show": "H",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "h",
+          "e",
+          "t",
+          "f"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف H؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف H؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🎩 hat",
+          "🍊 orange",
+          "👃 nose",
+          "🍦 ice cream"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter H.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "F",
+          "H",
+          "E",
+          "T"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "en1_05",
+       "title": "مراجعة: A B C D E F G H",
+       "icon": "🔁",
+       "introBig": "A B C D E F G H",
+       "introText": "لنراجع الحروف",
+       "introSpeak": "هَيَّا نُرَاجِعُ الحُرُوف",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف H؟",
+         "speak": "أَيْنَ حَرْف H؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "F",
+          "H",
+          "E",
+          "T"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter D.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "D",
+          "B",
+          "P",
+          "R"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من C؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ C؟",
+         "show": "C",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "g",
+          "q",
+          "c",
+          "o"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف C؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف C؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐱 cat",
+          "🐟 fish",
+          "🍎 apple",
+          "🐰 rabbit"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف H؟",
+         "speak": "أَيْنَ حَرْف H؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "F",
+          "E",
+          "T",
+          "H"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter D.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "R",
+          "P",
+          "D",
+          "B"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "en1_06",
+       "title": "الحروف I J",
+       "icon": "🍦",
+       "introBig": "Ii  Jj",
+       "introText": "I i — 🍦 ice cream\nJ j — 👖 jeans",
+       "introSpeak": "This is the letter I. I, ice cream. This is the letter J. J, jeans.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف I؟",
+         "speak": "أَيْنَ حَرْف I؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "J",
+          "I",
+          "A",
+          "L"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من I؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ I؟",
+         "show": "I",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "j",
+          "b",
+          "l",
+          "i"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف I؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف I؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍦 ice cream",
+          "🌙 moon",
+          "🦁 lion",
+          "⚽ ball"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف J؟",
+         "speak": "أَيْنَ حَرْف J؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "X",
+          "J",
+          "L",
+          "I"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من J؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ J؟",
+         "show": "J",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "x",
+          "i",
+          "l",
+          "j"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف J؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف J؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "👖 jeans",
+          "⌚ watch",
+          "💛 yellow",
+          "🌙 moon"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter J.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "L",
+          "W",
+          "I",
+          "J"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "en1_07",
+       "title": "الحروف K L",
+       "icon": "🔑",
+       "introBig": "Kk  Ll",
+       "introText": "K k — 🔑 key\nL l — 🦁 lion",
+       "introSpeak": "This is the letter K. K, key. This is the letter L. L, lion.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف K؟",
+         "speak": "أَيْنَ حَرْف K؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "Y",
+          "X",
+          "Z",
+          "K"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من K؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ K؟",
+         "show": "K",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "z",
+          "k",
+          "x",
+          "y"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف K؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف K؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐰 rabbit",
+          "🖊️ pen",
+          "🔑 key",
+          "☂️ umbrella"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف L؟",
+         "speak": "أَيْنَ حَرْف L؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "P",
+          "J",
+          "L",
+          "I"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من L؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ L؟",
+         "show": "L",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "b",
+          "i",
+          "j",
+          "l"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف L؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف L؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🌳 tree",
+          "☂️ umbrella",
+          "🦓 zebra",
+          "🦁 lion"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter K.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "K",
+          "X",
+          "Z",
+          "Y"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "en1_08",
+       "title": "الحروف M N",
+       "icon": "🌙",
+       "introBig": "Mm  Nn",
+       "introText": "M m — 🌙 moon\nN n — 👃 nose",
+       "introSpeak": "This is the letter M. M, moon. This is the letter N. N, nose.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف M؟",
+         "speak": "أَيْنَ حَرْف M؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "M",
+          "V",
+          "N",
+          "W"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من M؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ M؟",
+         "show": "M",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "w",
+          "v",
+          "n",
+          "m"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف M؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف M؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍦 ice cream",
+          "🎩 hat",
+          "🌙 moon",
+          "👖 jeans"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف N؟",
+         "speak": "أَيْنَ حَرْف N؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "N",
+          "M",
+          "W",
+          "V"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من N؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ N؟",
+         "show": "N",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "m",
+          "w",
+          "n",
+          "v"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف N؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف N؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "⌚ watch",
+          "💛 yellow",
+          "🥚 egg",
+          "👃 nose"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter M.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "W",
+          "M",
+          "V",
+          "N"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "en1_09",
+       "title": "الحروف O P",
+       "icon": "🍊",
+       "introBig": "Oo  Pp",
+       "introText": "O o — 🍊 orange\nP p — 🖊️ pen",
+       "introSpeak": "This is the letter O. O, orange. This is the letter P. P, pen.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف O؟",
+         "speak": "أَيْنَ حَرْف O؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "Q",
+          "G",
+          "O",
+          "C"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من O؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ O؟",
+         "show": "O",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "c",
+          "q",
+          "g",
+          "o"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف O؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف O؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "💛 yellow",
+          "📦 box",
+          "🍊 orange",
+          "🐰 rabbit"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف P؟",
+         "speak": "أَيْنَ حَرْف P؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "P",
+          "R",
+          "D",
+          "B"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من P؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ P؟",
+         "show": "P",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "d",
+          "p",
+          "b",
+          "r"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف P؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف P؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🖊️ pen",
+          "⌚ watch",
+          "🎩 hat",
+          "🦓 zebra"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter O.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "O",
+          "G",
+          "Q",
+          "C"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "en1_10",
+       "title": "مراجعة: I J K L M N O P",
+       "icon": "🔁",
+       "introBig": "I J K L M N O P",
+       "introText": "لنراجع الحروف",
+       "introSpeak": "هَيَّا نُرَاجِعُ الحُرُوف",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف P؟",
+         "speak": "أَيْنَ حَرْف P؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "D",
+          "B",
+          "P",
+          "R"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter I.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "C",
+          "L",
+          "I",
+          "J"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من M؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ M؟",
+         "show": "M",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "w",
+          "n",
+          "m",
+          "v"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف M؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف M؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍇 grapes",
+          "🦁 lion",
+          "⌚ watch",
+          "🌙 moon"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف L؟",
+         "speak": "أَيْنَ حَرْف L؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "H",
+          "J",
+          "I",
+          "L"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter J.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "J",
+          "I",
+          "F",
+          "L"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "en1_11",
+       "title": "الحروف Q R",
+       "icon": "👸",
+       "introBig": "Qq  Rr",
+       "introText": "Q q — 👸 queen\nR r — 🐰 rabbit",
+       "introSpeak": "This is the letter Q. Q, queen. This is the letter R. R, rabbit.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف Q؟",
+         "speak": "أَيْنَ حَرْف Q؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "O",
+          "Q",
+          "G",
+          "C"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من Q؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ Q؟",
+         "show": "Q",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "g",
+          "c",
+          "o",
+          "q"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف Q؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف Q؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍦 ice cream",
+          "🥚 egg",
+          "📦 box",
+          "👸 queen"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف R؟",
+         "speak": "أَيْنَ حَرْف R؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "P",
+          "B",
+          "D",
+          "R"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من R؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ R؟",
+         "show": "R",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "b",
+          "r",
+          "p",
+          "d"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف R؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف R؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🥚 egg",
+          "👃 nose",
+          "📦 box",
+          "🐰 rabbit"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter R.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "D",
+          "R",
+          "P",
+          "B"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "en1_12",
+       "title": "الحروف S T",
+       "icon": "☀️",
+       "introBig": "Ss  Tt",
+       "introText": "S s — ☀️ sun\nT t — 🌳 tree",
+       "introSpeak": "This is the letter S. S, sun. This is the letter T. T, tree.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف S؟",
+         "speak": "أَيْنَ حَرْف S؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "A",
+          "S",
+          "R",
+          "U"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من S؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ S؟",
+         "show": "S",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "u",
+          "l",
+          "a",
+          "s"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف S؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف S؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🦁 lion",
+          "🍊 orange",
+          "🐟 fish",
+          "☀️ sun"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف T؟",
+         "speak": "أَيْنَ حَرْف T؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "E",
+          "H",
+          "T",
+          "F"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من T؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ T؟",
+         "show": "T",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "f",
+          "t",
+          "e",
+          "h"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف T؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف T؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "⚽ ball",
+          "🍊 orange",
+          "🌳 tree",
+          "🐶 dog"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter T.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "F",
+          "T",
+          "E",
+          "H"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "en1_13",
+       "title": "الحروف U V",
+       "icon": "☂️",
+       "introBig": "Uu  Vv",
+       "introText": "U u — ☂️ umbrella\nV v — 🎻 violin",
+       "introSpeak": "This is the letter U. U, umbrella. This is the letter V. V, violin.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف U؟",
+         "speak": "أَيْنَ حَرْف U؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "B",
+          "U",
+          "A",
+          "S"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من U؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ U؟",
+         "show": "U",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "a",
+          "u",
+          "s",
+          "o"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف U؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف U؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🥚 egg",
+          "🐱 cat",
+          "🖊️ pen",
+          "☂️ umbrella"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف V؟",
+         "speak": "أَيْنَ حَرْف V؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "N",
+          "W",
+          "M",
+          "V"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من V؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ V؟",
+         "show": "V",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "w",
+          "v",
+          "m",
+          "n"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف V؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف V؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🎩 hat",
+          "🍇 grapes",
+          "🦁 lion",
+          "🎻 violin"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter V.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "W",
+          "V",
+          "N",
+          "M"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "en1_14",
+       "title": "الحروف W X",
+       "icon": "⌚",
+       "introBig": "Ww  Xx",
+       "introText": "W w — ⌚ watch\nX x — 📦 box",
+       "introSpeak": "This is the letter W. W, watch. This is the letter X. X, box.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف W؟",
+         "speak": "أَيْنَ حَرْف W؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "N",
+          "V",
+          "W",
+          "M"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من W؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ W؟",
+         "show": "W",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "m",
+          "v",
+          "w",
+          "n"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف W؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف W؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "👖 jeans",
+          "⌚ watch",
+          "🐶 dog",
+          "🎻 violin"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف X؟",
+         "speak": "أَيْنَ حَرْف X؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "X",
+          "Z",
+          "K",
+          "Y"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من X؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ X؟",
+         "show": "X",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "k",
+          "z",
+          "x",
+          "y"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة فيها حرف X؟",
+         "speak": "أَيُّ كَلِمَةٍ فِيهَا حَرْف X؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "📦 box",
+          "🎻 violin",
+          "☀️ sun",
+          "🖊️ pen"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter X.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "K",
+          "Z",
+          "X",
+          "Y"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "en1_15",
+       "title": "مراجعة: Q R S T U V W X",
+       "icon": "🔁",
+       "introBig": "Q R S T U V W X",
+       "introText": "لنراجع الحروف",
+       "introSpeak": "هَيَّا نُرَاجِعُ الحُرُوف",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف W؟",
+         "speak": "أَيْنَ حَرْف W؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "M",
+          "V",
+          "N",
+          "W"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter T.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "T",
+          "H",
+          "E",
+          "F"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من Q؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ Q؟",
+         "show": "Q",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "q",
+          "c",
+          "g",
+          "o"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة فيها حرف X؟",
+         "speak": "أَيُّ كَلِمَةٍ فِيهَا حَرْف X؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐱 cat",
+          "💛 yellow",
+          "👸 queen",
+          "📦 box"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف U؟",
+         "speak": "أَيْنَ حَرْف U؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "O",
+          "U",
+          "A",
+          "S"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter X.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "X",
+          "K",
+          "Y",
+          "Z"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "en1_16",
+       "title": "الحروف Y Z",
+       "icon": "💛",
+       "introBig": "Yy  Zz",
+       "introText": "Y y — 💛 yellow\nZ z — 🦓 zebra",
+       "introSpeak": "This is the letter Y. Y, yellow. This is the letter Z. Z, zebra.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف Y؟",
+         "speak": "أَيْنَ حَرْف Y؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "X",
+          "K",
+          "Z",
+          "Y"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من Y؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ Y؟",
+         "show": "Y",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "k",
+          "x",
+          "z",
+          "y"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف Y؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف Y؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "⌚ watch",
+          "👖 jeans",
+          "🐰 rabbit",
+          "💛 yellow"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف Z؟",
+         "speak": "أَيْنَ حَرْف Z؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "K",
+          "X",
+          "Y",
+          "Z"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من Z؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ Z؟",
+         "show": "Z",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "z",
+          "y",
+          "x",
+          "k"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف Z؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف Z؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🌙 moon",
+          "🦓 zebra",
+          "💛 yellow",
+          "🎻 violin"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter Y.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "X",
+          "K",
+          "Y",
+          "Z"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "en1_17",
+       "title": "مراجعة: Y Z",
+       "icon": "🔁",
+       "introBig": "Y Z",
+       "introText": "لنراجع الحروف",
+       "introSpeak": "هَيَّا نُرَاجِعُ الحُرُوف",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف Y؟",
+         "speak": "أَيْنَ حَرْف Y؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "Z",
+          "K",
+          "X",
+          "Y"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter Z.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "X",
+          "Z",
+          "K",
+          "Y"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الصغير من Z؟",
+         "speak": "مَا الحَرْفُ الصَّغِيرُ مِنْ Z؟",
+         "show": "Z",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "z",
+          "y",
+          "k",
+          "x"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف Z؟",
+         "speak": "أَيُّ كَلِمَةٍ تَبْدَأُ بِحَرْف Z؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "☂️ umbrella",
+          "🦓 zebra",
+          "🍇 grapes",
+          "🐶 dog"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف Y؟",
+         "speak": "أَيْنَ حَرْف Y؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "X",
+          "Z",
+          "K",
+          "Y"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "The letter Y.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "X",
+          "K",
+          "Y",
+          "Z"
+         ],
+         "answer": 2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "title": "المستوى الثاني: كلمات وأعداد وألوان",
+     "lessons": [
+      {
+       "id": "en2_01",
+       "title": "الأعداد بالإنجليزي 1 - 5",
+       "icon": "🔢",
+       "introBig": "1  2  3  4  5",
+       "introText": "1 — one\n2 — two\n3 — three\n4 — four\n5 — five",
+       "introSpeak": "one. two. three. four. five.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذا العدد بالإنجليزي؟",
+         "speak": "مَا اسْمُ هَذَا العَدَدِ بِالإِنْجِلِيزِيّ؟",
+         "show": "5",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "five",
+          "two",
+          "three",
+          "six"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "count",
+         "prompt": "How many? كم عددها؟",
+         "speak": "How many? كَمْ عَدَدُهَا؟",
+         "show": "",
+         "count": 4,
+         "countEmoji": "⭐",
+         "options": [
+          "nine",
+          "one",
+          "four",
+          "ten"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذا العدد بالإنجليزي؟",
+         "speak": "مَا اسْمُ هَذَا العَدَدِ بِالإِنْجِلِيزِيّ؟",
+         "show": "4",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "seven",
+          "four",
+          "six",
+          "five"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "count",
+         "prompt": "How many? كم عددها؟",
+         "speak": "How many? كَمْ عَدَدُهَا؟",
+         "show": "",
+         "count": 4,
+         "countEmoji": "🍇",
+         "options": [
+          "four",
+          "nine",
+          "three",
+          "two"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذا العدد بالإنجليزي؟",
+         "speak": "مَا اسْمُ هَذَا العَدَدِ بِالإِنْجِلِيزِيّ؟",
+         "show": "2",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "two",
+          "five",
+          "eight",
+          "three"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "count",
+         "prompt": "How many? كم عددها؟",
+         "speak": "How many? كَمْ عَدَدُهَا؟",
+         "show": "",
+         "count": 4,
+         "countEmoji": "🍋",
+         "options": [
+          "five",
+          "two",
+          "four",
+          "six"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "en2_02",
+       "title": "الأعداد بالإنجليزي 6 - 10",
+       "icon": "🔢",
+       "introBig": "6  7  8  9  10",
+       "introText": "6 — six\n7 — seven\n8 — eight\n9 — nine\n10 — ten",
+       "introSpeak": "six. seven. eight. nine. ten.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذا العدد بالإنجليزي؟",
+         "speak": "مَا اسْمُ هَذَا العَدَدِ بِالإِنْجِلِيزِيّ؟",
+         "show": "6",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ten",
+          "six",
+          "three",
+          "nine"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "count",
+         "prompt": "How many? كم عددها؟",
+         "speak": "How many? كَمْ عَدَدُهَا؟",
+         "show": "",
+         "count": 8,
+         "countEmoji": "🐟",
+         "options": [
+          "two",
+          "nine",
+          "eight",
+          "ten"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذا العدد بالإنجليزي؟",
+         "speak": "مَا اسْمُ هَذَا العَدَدِ بِالإِنْجِلِيزِيّ؟",
+         "show": "6",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "two",
+          "ten",
+          "seven",
+          "six"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "count",
+         "prompt": "How many? كم عددها؟",
+         "speak": "How many? كَمْ عَدَدُهَا؟",
+         "show": "",
+         "count": 7,
+         "countEmoji": "🐤",
+         "options": [
+          "ten",
+          "five",
+          "seven",
+          "one"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذا العدد بالإنجليزي؟",
+         "speak": "مَا اسْمُ هَذَا العَدَدِ بِالإِنْجِلِيزِيّ؟",
+         "show": "9",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "nine",
+          "four",
+          "five",
+          "seven"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "count",
+         "prompt": "How many? كم عددها؟",
+         "speak": "How many? كَمْ عَدَدُهَا؟",
+         "show": "",
+         "count": 10,
+         "countEmoji": "🍇",
+         "options": [
+          "ten",
+          "two",
+          "seven",
+          "five"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "en2_03",
+       "title": "الألوان",
+       "icon": "🎨",
+       "introBig": "❤️ 💙 💚 💛 💜 🖤",
+       "introText": "❤️ red\n💙 blue\n💚 green\n💛 yellow\n💜 purple\n🖤 black",
+       "introSpeak": "red. blue. green. yellow. purple. black.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما اسمها بالإنجليزي؟",
+         "speak": "مَا اسْمُهَا بِالإِنْجِلِيزِيّ؟",
+         "show": "❤️",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "purple",
+          "black",
+          "red",
+          "green"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الصورة",
+         "speak": "blue.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "💙",
+          "💚",
+          "🖤",
+          "💜"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أين green؟",
+         "speak": "Where is the green? أَيْنَ green؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "❤️",
+          "💜",
+          "🖤",
+          "💚"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسمها بالإنجليزي؟",
+         "speak": "مَا اسْمُهَا بِالإِنْجِلِيزِيّ؟",
+         "show": "💛",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "yellow",
+          "purple",
+          "blue",
+          "green"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الصورة",
+         "speak": "purple.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "💙",
+          "💚",
+          "💜",
+          "🖤"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين black؟",
+         "speak": "Where is the black? أَيْنَ black؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "❤️",
+          "💙",
+          "🖤",
+          "💜"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسمها بالإنجليزي؟",
+         "speak": "مَا اسْمُهَا بِالإِنْجِلِيزِيّ؟",
+         "show": "❤️",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "green",
+          "yellow",
+          "blue",
+          "red"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "en2_04",
+       "title": "الحيوانات 1",
+       "icon": "🐶",
+       "introBig": "🐱 🐶 🐮 🐴 🐦",
+       "introText": "🐱 cat\n🐶 dog\n🐮 cow\n🐴 horse\n🐦 bird",
+       "introSpeak": "cat. dog. cow. horse. bird.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما اسمها بالإنجليزي؟",
+         "speak": "مَا اسْمُهَا بِالإِنْجِلِيزِيّ؟",
+         "show": "🐱",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "horse",
+          "dog",
+          "cat",
+          "bird"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الصورة",
+         "speak": "dog.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐦",
+          "🐱",
+          "🐶",
+          "🐮"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين cow؟",
+         "speak": "Where is the cow? أَيْنَ cow؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐦",
+          "🐶",
+          "🐱",
+          "🐮"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسمها بالإنجليزي؟",
+         "speak": "مَا اسْمُهَا بِالإِنْجِلِيزِيّ؟",
+         "show": "🐴",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "horse",
+          "cow",
+          "cat",
+          "bird"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الصورة",
+         "speak": "bird.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐮",
+          "🐦",
+          "🐴",
+          "🐱"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين cat؟",
+         "speak": "Where is the cat? أَيْنَ cat؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐶",
+          "🐦",
+          "🐱",
+          "🐮"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "en2_05",
+       "title": "الحيوانات 2",
+       "icon": "🦁",
+       "introBig": "🐟 🦆 🐑 🦁 🐵",
+       "introText": "🐟 fish\n🦆 duck\n🐑 sheep\n🦁 lion\n🐵 monkey",
+       "introSpeak": "fish. duck. sheep. lion. monkey.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما اسمها بالإنجليزي؟",
+         "speak": "مَا اسْمُهَا بِالإِنْجِلِيزِيّ؟",
+         "show": "🐟",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "fish",
+          "duck",
+          "lion",
+          "monkey"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الصورة",
+         "speak": "duck.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐵",
+          "🐑",
+          "🦆",
+          "🦁"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين sheep؟",
+         "speak": "Where is the sheep? أَيْنَ sheep؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🦁",
+          "🦆",
+          "🐑",
+          "🐵"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسمها بالإنجليزي؟",
+         "speak": "مَا اسْمُهَا بِالإِنْجِلِيزِيّ؟",
+         "show": "🦁",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "monkey",
+          "fish",
+          "lion",
+          "sheep"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الصورة",
+         "speak": "monkey.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🦆",
+          "🦁",
+          "🐵",
+          "🐟"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين fish؟",
+         "speak": "Where is the fish? أَيْنَ fish؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🦆",
+          "🦁",
+          "🐟",
+          "🐑"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "en2_06",
+       "title": "الطعام 1",
+       "icon": "🍎",
+       "introBig": "🍎 🍌 🍞 🥛 🥚",
+       "introText": "🍎 apple\n🍌 banana\n🍞 bread\n🥛 milk\n🥚 egg",
+       "introSpeak": "apple. banana. bread. milk. egg.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما اسمها بالإنجليزي؟",
+         "speak": "مَا اسْمُهَا بِالإِنْجِلِيزِيّ؟",
+         "show": "🍎",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "apple",
+          "banana",
+          "egg",
+          "milk"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الصورة",
+         "speak": "banana.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🥚",
+          "🍌",
+          "🍎",
+          "🍞"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين bread؟",
+         "speak": "Where is the bread? أَيْنَ bread؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍞",
+          "🍎",
+          "🍌",
+          "🥛"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسمها بالإنجليزي؟",
+         "speak": "مَا اسْمُهَا بِالإِنْجِلِيزِيّ؟",
+         "show": "🥛",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "egg",
+          "milk",
+          "banana",
+          "bread"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الصورة",
+         "speak": "egg.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍌",
+          "🥚",
+          "🍞",
+          "🥛"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين apple؟",
+         "speak": "Where is the apple? أَيْنَ apple؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🥛",
+          "🍌",
+          "🍎",
+          "🍞"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "en2_07",
+       "title": "الطعام 2",
+       "icon": "🍇",
+       "introBig": "💧 🍊 🍇 🍋 🍚",
+       "introText": "💧 water\n🍊 orange\n🍇 grapes\n🍋 lemon\n🍚 rice",
+       "introSpeak": "water. orange. grapes. lemon. rice.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما اسمها بالإنجليزي؟",
+         "speak": "مَا اسْمُهَا بِالإِنْجِلِيزِيّ؟",
+         "show": "💧",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "lemon",
+          "water",
+          "rice",
+          "grapes"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الصورة",
+         "speak": "orange.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍊",
+          "🍋",
+          "🍚",
+          "🍇"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أين grapes؟",
+         "speak": "Where is the grapes? أَيْنَ grapes؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍇",
+          "🍋",
+          "💧",
+          "🍚"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسمها بالإنجليزي؟",
+         "speak": "مَا اسْمُهَا بِالإِنْجِلِيزِيّ؟",
+         "show": "🍋",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "lemon",
+          "grapes",
+          "rice",
+          "water"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الصورة",
+         "speak": "rice.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍋",
+          "🍚",
+          "🍇",
+          "💧"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين water؟",
+         "speak": "Where is the water? أَيْنَ water؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "💧",
+          "🍊",
+          "🍇",
+          "🍋"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "en2_08",
+       "title": "الجسم",
+       "icon": "👃",
+       "introBig": "👁️ 👃 👂 ✋ 👄",
+       "introText": "👁️ eye\n👃 nose\n👂 ear\n✋ hand\n👄 mouth",
+       "introSpeak": "eye. nose. ear. hand. mouth.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما اسمها بالإنجليزي؟",
+         "speak": "مَا اسْمُهَا بِالإِنْجِلِيزِيّ؟",
+         "show": "👁️",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "mouth",
+          "eye",
+          "nose",
+          "ear"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الصورة",
+         "speak": "nose.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "👃",
+          "✋",
+          "👁️",
+          "👄"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أين ear؟",
+         "speak": "Where is the ear? أَيْنَ ear؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "✋",
+          "👁️",
+          "👄",
+          "👂"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسمها بالإنجليزي؟",
+         "speak": "مَا اسْمُهَا بِالإِنْجِلِيزِيّ؟",
+         "show": "✋",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "hand",
+          "mouth",
+          "eye",
+          "nose"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الصورة",
+         "speak": "mouth.",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "👁️",
+          "✋",
+          "👄",
+          "👃"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين eye؟",
+         "speak": "Where is the eye? أَيْنَ eye؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "👂",
+          "👁️",
+          "👄",
+          "✋"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "en2_09",
+       "title": "كلمات يومية 1",
+       "icon": "👋",
+       "introBig": "👋 🙏 🌅",
+       "introText": "👋 Hello = مرحبا\n🙏 Thank you = شكرًا\n🌅 Good morning = صباح الخير\n🌙 Good night = تصبح على خير\n👍 Yes = نعم\n👎 No = لا",
+       "introSpeak": "Hello. Thank you. Good morning. Good night. Yes. No.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "كيف نقول «مرحبا» بالإنجليزي؟",
+         "speak": "كَيْفَ نَقُولُ مَرْحَبًا بِالإِنْجِلِيزِيّ؟",
+         "show": "👋",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "Hello",
+          "Good night",
+          "Yes",
+          "No"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كيف نقول «شكرًا» بالإنجليزي؟",
+         "speak": "كَيْفَ نَقُولُ شُكْرًا بِالإِنْجِلِيزِيّ؟",
+         "show": "🙏",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "No",
+          "Yes",
+          "Good morning",
+          "Thank you"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كيف نقول «صباح الخير» بالإنجليزي؟",
+         "speak": "كَيْفَ نَقُولُ صَبَاحُ الخَيْر بِالإِنْجِلِيزِيّ؟",
+         "show": "🌅",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "No",
+          "Yes",
+          "Good morning",
+          "Thank you"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كيف نقول «تصبح على خير» بالإنجليزي؟",
+         "speak": "كَيْفَ نَقُولُ تُصْبِحُ عَلَى خَيْر بِالإِنْجِلِيزِيّ؟",
+         "show": "🌙",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "Good night",
+          "Thank you",
+          "Good morning",
+          "Hello"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كيف نقول «نعم» بالإنجليزي؟",
+         "speak": "كَيْفَ نَقُولُ نَعَم بِالإِنْجِلِيزِيّ؟",
+         "show": "👍",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "Good morning",
+          "No",
+          "Yes",
+          "Good night"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كيف نقول «لا» بالإنجليزي؟",
+         "speak": "كَيْفَ نَقُولُ لَا بِالإِنْجِلِيزِيّ؟",
+         "show": "👎",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "No",
+          "Good morning",
+          "Yes",
+          "Thank you"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "en2_10",
+       "title": "كلمات يومية 2",
+       "icon": "👋",
+       "introBig": "👋 🙏 🌅",
+       "introText": "👋 Hello = مرحبا\n🙏 Thank you = شكرًا\n🌅 Good morning = صباح الخير\n🌙 Good night = تصبح على خير\n👍 Yes = نعم\n👎 No = لا",
+       "introSpeak": "Hello. Thank you. Good morning. Good night. Yes. No.",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "كيف نقول «لا» بالإنجليزي؟",
+         "speak": "كَيْفَ نَقُولُ لَا بِالإِنْجِلِيزِيّ؟",
+         "show": "👎",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "Thank you",
+          "Yes",
+          "Hello",
+          "No"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كيف نقول «نعم» بالإنجليزي؟",
+         "speak": "كَيْفَ نَقُولُ نَعَم بِالإِنْجِلِيزِيّ؟",
+         "show": "👍",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "Good morning",
+          "Thank you",
+          "No",
+          "Yes"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كيف نقول «تصبح على خير» بالإنجليزي؟",
+         "speak": "كَيْفَ نَقُولُ تُصْبِحُ عَلَى خَيْر بِالإِنْجِلِيزِيّ؟",
+         "show": "🌙",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "Yes",
+          "Thank you",
+          "Hello",
+          "Good night"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كيف نقول «صباح الخير» بالإنجليزي؟",
+         "speak": "كَيْفَ نَقُولُ صَبَاحُ الخَيْر بِالإِنْجِلِيزِيّ؟",
+         "show": "🌅",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "Hello",
+          "Yes",
+          "No",
+          "Good morning"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كيف نقول «شكرًا» بالإنجليزي؟",
+         "speak": "كَيْفَ نَقُولُ شُكْرًا بِالإِنْجِلِيزِيّ؟",
+         "show": "🙏",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "Yes",
+          "Good morning",
+          "Thank you",
+          "No"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كيف نقول «مرحبا» بالإنجليزي؟",
+         "speak": "كَيْفَ نَقُولُ مَرْحَبًا بِالإِنْجِلِيزِيّ؟",
+         "show": "👋",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "No",
+          "Yes",
+          "Hello",
+          "Good morning"
+         ],
+         "answer": 2
+        }
+       ]
+      }
+     ]
+    }
+   ]
   }
  ],
  "placement": {
@@ -6565,10 +9495,10 @@
      "count": 0,
      "countEmoji": "",
      "options": [
-      "ا",
+      "ه",
       "و",
       "م",
-      "ه"
+      "ا"
      ],
      "answer": 2
     }
@@ -6586,7 +9516,7 @@
       "ي",
       "ن",
       "ب",
-      "ث"
+      "ت"
      ],
      "answer": 2
     }
@@ -6601,12 +9531,12 @@
      "count": 0,
      "countEmoji": "",
      "options": [
-      "غ",
       "س",
-      "ش",
-      "ل"
+      "ب",
+      "ت",
+      "ش"
      ],
-     "answer": 1
+     "answer": 0
     }
    },
    {
@@ -6619,12 +9549,12 @@
      "count": 0,
      "countEmoji": "",
      "options": [
-      "نحلة",
       "فيل",
       "شمس",
-      "قمر"
+      "قمر",
+      "نحلة"
      ],
-     "answer": 1
+     "answer": 0
     }
    },
    {
@@ -6637,12 +9567,12 @@
      "count": 0,
      "countEmoji": "",
      "options": [
-      "ع",
-      "ق",
+      "غ",
       "ف",
-      "غ"
+      "ق",
+      "ع"
      ],
-     "answer": 1
+     "answer": 2
     }
    },
    {
@@ -6655,12 +9585,12 @@
      "count": 0,
      "countEmoji": "",
      "options": [
+      "بُ",
       "بْ",
-      "بِ",
       "بَ",
-      "بُ"
+      "بِ"
      ],
-     "answer": 3
+     "answer": 0
     }
    }
   ],
@@ -6673,30 +9603,12 @@
      "speak": "عُدَّ مَعِي. كَمْ عَدَدُهَا؟",
      "show": "",
      "count": 3,
-     "countEmoji": "⚽",
+     "countEmoji": "🌸",
      "options": [
-      "1",
       "4",
-      "3",
-      "6"
-     ],
-     "answer": 2
-    }
-   },
-   {
-    "level": 1,
-    "exercise": {
-     "type": "count",
-     "prompt": "كم عددها؟",
-     "speak": "عُدَّ مَعِي. كَمْ عَدَدُهَا؟",
-     "show": "",
-     "count": 5,
-     "countEmoji": "⚽",
-     "options": [
-      "8",
-      "7",
+      "6",
       "2",
-      "5"
+      "3"
      ],
      "answer": 3
     }
@@ -6708,15 +9620,33 @@
      "prompt": "كم عددها؟",
      "speak": "عُدَّ مَعِي. كَمْ عَدَدُهَا؟",
      "show": "",
-     "count": 7,
-     "countEmoji": "🍇",
+     "count": 5,
+     "countEmoji": "🐤",
      "options": [
-      "6",
-      "7",
       "5",
-      "8"
+      "7",
+      "4",
+      "3"
      ],
-     "answer": 1
+     "answer": 0
+    }
+   },
+   {
+    "level": 1,
+    "exercise": {
+     "type": "count",
+     "prompt": "كم عددها؟",
+     "speak": "عُدَّ مَعِي. كَمْ عَدَدُهَا؟",
+     "show": "",
+     "count": 7,
+     "countEmoji": "🌸",
+     "options": [
+      "7",
+      "8",
+      "5",
+      "9"
+     ],
+     "answer": 0
     }
    },
    {
@@ -6729,9 +9659,9 @@
      "count": 0,
      "countEmoji": "",
      "options": [
-      "8",
-      "5",
       "10",
+      "5",
+      "4",
       "7"
      ],
      "answer": 3
@@ -6748,11 +9678,11 @@
      "countEmoji": "",
      "options": [
       "2",
-      "4",
-      "1",
-      "6"
+      "6",
+      "7",
+      "4"
      ],
-     "answer": 1
+     "answer": 3
     }
    },
    {
@@ -6765,12 +9695,122 @@
      "count": 0,
      "countEmoji": "",
      "options": [
-      "18",
       "14",
       "17",
-      "15"
+      "19",
+      "18"
+     ],
+     "answer": 1
+    }
+   }
+  ],
+  "en": [
+   {
+    "level": 1,
+    "exercise": {
+     "type": "choice",
+     "prompt": "أين حرف B؟",
+     "speak": "أَيْنَ حَرْف B؟",
+     "show": "",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "D",
+      "P",
+      "B",
+      "R"
      ],
      "answer": 2
+    }
+   },
+   {
+    "level": 1,
+    "exercise": {
+     "type": "choice",
+     "prompt": "أين حرف M؟",
+     "speak": "أَيْنَ حَرْف M؟",
+     "show": "",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "V",
+      "M",
+      "N",
+      "W"
+     ],
+     "answer": 1
+    }
+   },
+   {
+    "level": 1,
+    "exercise": {
+     "type": "choice",
+     "prompt": "أين حرف S؟",
+     "speak": "أَيْنَ حَرْف S؟",
+     "show": "",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "C",
+      "S",
+      "A",
+      "U"
+     ],
+     "answer": 1
+    }
+   },
+   {
+    "level": 2,
+    "exercise": {
+     "type": "choice",
+     "prompt": "ما اسمها بالإنجليزي؟",
+     "speak": "مَا اسْمُهَا بِالإِنْجِلِيزِيّ؟",
+     "show": "💙",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+     ],
+     "answer": 0
+    }
+   },
+   {
+    "level": 2,
+    "exercise": {
+     "type": "choice",
+     "prompt": "ما اسم هذا العدد بالإنجليزي؟",
+     "speak": "مَا اسْمُ هَذَا العَدَدِ بِالإِنْجِلِيزِيّ؟",
+     "show": "3",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "eight",
+      "three",
+      "two",
+      "five"
+     ],
+     "answer": 1
+    }
+   },
+   {
+    "level": 2,
+    "exercise": {
+     "type": "listen",
+     "prompt": "اسمع، ثم اختر الصورة",
+     "speak": "dog.",
+     "show": "",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "🐦",
+      "🐮",
+      "🐱",
+      "🐶"
+     ],
+     "answer": 3
     }
    }
   ]
@@ -6831,6 +9871,7 @@
   "placement_done": "رَائِع! جَهَّزْنَا لَكَ الدُّرُوسَ المُنَاسِبَة",
   "placement_start_ar": "الآنَ اللُّغَةُ العَرَبِيَّة. أَجِبْ عَلَى قَدْرِ مَا تَعْرِف، وَلَا بَأْسَ إِنْ لَمْ تَعْرِف",
   "placement_start_math": "الآنَ الرِّيَاضِيَّات. أَجِبْ عَلَى قَدْرِ مَا تَعْرِف، وَلَا بَأْسَ إِنْ لَمْ تَعْرِف",
+  "placement_start_en": "الآنَ اللُّغَةُ الإِنْجِلِيزِيَّة. أَجِبْ عَلَى قَدْرِ مَا تَعْرِف، وَلَا بَأْسَ إِنْ لَمْ تَعْرِف",
   "calm": "رُكْنُ الهُدُوء. هُنَا نَرْتَاحُ قَلِيلًا",
   "breathe_in": "خُذْ نَفَسًا عَمِيقًا",
   "breathe_out": "أَخْرِجِ النَّفَسَ بِبُطْء",
