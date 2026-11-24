@@ -426,7 +426,7 @@ private fun ParentDashboard(
         BigButton("⚙️ إعدادات الصوت في الهاتف", Modifier.fillMaxWidth(), color = Color(0xFF6B8F7E)) { Speaker.openTtsSettings(ctx) }
         Gap(8)
         BigButton("🔊 جرّب الصوت", Modifier.fillMaxWidth(), color = Green) {
-            speaker.speak("مَرْحَبًا! هَذَا حَرْفُ البَاء. بَطَّة")
+            speaker.speak("مَرْحَبًا! هَذَا حَرْفُ البَاءْ. بَطَّة")
         }
         Text("إذا تغيّر الصوت بعد التنزيل، أغلق التطبيق وافتحه من جديد.", fontSize = 14.sp, color = Color.Gray)
         Gap(12)
