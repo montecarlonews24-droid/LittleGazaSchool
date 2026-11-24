@@ -1,0 +1,6822 @@
+{
+ "version": 1,
+ "subjects": [
+  {
+   "id": "ar",
+   "title": "اللغة العربية",
+   "icon": "📖",
+   "levels": [
+    {
+     "level": 1,
+     "title": "المستوى الأول: الحروف",
+     "lessons": [
+      {
+       "id": "ar1_01",
+       "title": "حرف الألف  ا",
+       "icon": "🐰",
+       "introBig": "ا",
+       "introText": "هذا حرف الألف\n🐰 أرنب",
+       "introSpeak": "هذا حرف الألف. أرنب",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الألف؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ا",
+          "م",
+          "و",
+          "ه"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الألف",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ه",
+          "م",
+          "و",
+          "ا"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ا؟",
+         "speak": "أي كلمة تبدأ بحرف الألف؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐰 أرنب",
+          "🦅 صقر",
+          "🍇 عنب",
+          "📩 رسالة"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة أرنب؟",
+         "speak": "بأي حرف تبدأ كلمة أرنب؟",
+         "show": "🐰",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "أ",
+          "م",
+          "و",
+          "ه"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "ar1_02",
+       "title": "حرف الباء  ب",
+       "icon": "🦆",
+       "introBig": "ب",
+       "introText": "هذا حرف الباء\n🦆 بطة",
+       "introSpeak": "هذا حرف الباء. بطة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الباء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ن",
+          "ث",
+          "ب",
+          "ي"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الباء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ث",
+          "ت",
+          "ب",
+          "ن"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ب؟",
+         "speak": "أي كلمة تبدأ بحرف الباء؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍋 ليمون",
+          "🦆 بطة",
+          "🐘 فيل",
+          "🎁 هدية"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة بطة؟",
+         "speak": "بأي حرف تبدأ كلمة بطة؟",
+         "show": "🦆",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ت",
+          "ن",
+          "ي",
+          "ب"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "ar1_03",
+       "title": "حرف التاء  ت",
+       "icon": "🍎",
+       "introBig": "ت",
+       "introText": "هذا حرف التاء\n🍎 تفاحة",
+       "introSpeak": "هذا حرف التاء. تفاحة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف التاء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ب",
+          "ت",
+          "ث",
+          "ي"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف التاء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ن",
+          "ت",
+          "ث",
+          "ب"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ت؟",
+         "speak": "أي كلمة تبدأ بحرف التاء؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍇 عنب",
+          "🐟 سمكة",
+          "🍎 تفاحة",
+          "🦌 ظبي"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة تفاحة؟",
+         "speak": "بأي حرف تبدأ كلمة تفاحة؟",
+         "show": "🍎",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ث",
+          "ت",
+          "ي",
+          "ن"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "ar1_04",
+       "title": "حرف الثاء  ث",
+       "icon": "🦊",
+       "introBig": "ث",
+       "introText": "هذا حرف الثاء\n🦊 ثعلب",
+       "introSpeak": "هذا حرف الثاء. ثعلب",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الثاء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ن",
+          "ي",
+          "ت",
+          "ث"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الثاء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ت",
+          "ن",
+          "ي",
+          "ث"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ث؟",
+         "speak": "أي كلمة تبدأ بحرف الثاء؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍌 موز",
+          "🦊 ثعلب",
+          "🐰 أرنب",
+          "🦒 زرافة"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة ثعلب؟",
+         "speak": "بأي حرف تبدأ كلمة ثعلب؟",
+         "show": "🦊",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ي",
+          "ث",
+          "ب",
+          "ت"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "ar1_05",
+       "title": "مراجعة: ا ب ت ث",
+       "icon": "🔁",
+       "introBig": "ا ب ت ث",
+       "introText": "لنراجع ما تعلّمناه",
+       "introSpeak": "هيا نراجع الحروف التي تعلّمناها",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الألف؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ا",
+          "ه",
+          "و",
+          "م"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الباء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ي",
+          "ن",
+          "ب",
+          "ث"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة تفاحة؟",
+         "speak": "بأي حرف تبدأ كلمة تفاحة؟",
+         "show": "🍎",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ن",
+          "ب",
+          "ي",
+          "ت"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف الثاء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ت",
+          "ن",
+          "ث",
+          "ب"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الألف",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ا",
+          "و",
+          "م",
+          "ه"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة بطة؟",
+         "speak": "بأي حرف تبدأ كلمة بطة؟",
+         "show": "🦆",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ث",
+          "ي",
+          "ب",
+          "ت"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar1_06",
+       "title": "حرف الجيم  ج",
+       "icon": "🐫",
+       "introBig": "ج",
+       "introText": "هذا حرف الجيم\n🐫 جمل",
+       "introSpeak": "هذا حرف الجيم. جمل",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الجيم؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ج",
+          "ح",
+          "خ",
+          "ط"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الجيم",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ج",
+          "خ",
+          "ح",
+          "ز"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ج؟",
+         "speak": "أي كلمة تبدأ بحرف الجيم؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🎁 هدية",
+          "🐫 جمل",
+          "🦆 بطة",
+          "🐰 أرنب"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة جمل؟",
+         "speak": "بأي حرف تبدأ كلمة جمل؟",
+         "show": "🐫",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ط",
+          "ج",
+          "ح",
+          "خ"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "ar1_07",
+       "title": "حرف الحاء  ح",
+       "icon": "🐴",
+       "introBig": "ح",
+       "introText": "هذا حرف الحاء\n🐴 حصان",
+       "introSpeak": "هذا حرف الحاء. حصان",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الحاء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ح",
+          "خ",
+          "ي",
+          "ج"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الحاء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ج",
+          "د",
+          "خ",
+          "ح"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ح؟",
+         "speak": "أي كلمة تبدأ بحرف الحاء؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "✈️ طائرة",
+          "🐴 حصان",
+          "🌽 ذرة",
+          "🐰 أرنب"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة حصان؟",
+         "speak": "بأي حرف تبدأ كلمة حصان؟",
+         "show": "🐴",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ج",
+          "ح",
+          "ز",
+          "خ"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "ar1_08",
+       "title": "حرف الخاء  خ",
+       "icon": "🐑",
+       "introBig": "خ",
+       "introText": "هذا حرف الخاء\n🐑 خروف",
+       "introSpeak": "هذا حرف الخاء. خروف",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الخاء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ج",
+          "ح",
+          "ض",
+          "خ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الخاء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "خ",
+          "ج",
+          "ب",
+          "ح"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف خ؟",
+         "speak": "أي كلمة تبدأ بحرف الخاء؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "☁️ غيمة",
+          "🌙 قمر",
+          "🦌 ظبي",
+          "🐑 خروف"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة خروف؟",
+         "speak": "بأي حرف تبدأ كلمة خروف؟",
+         "show": "🐑",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ح",
+          "ج",
+          "خ",
+          "ز"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar1_09",
+       "title": "حرف الدال  د",
+       "icon": "🐻",
+       "introBig": "د",
+       "introText": "هذا حرف الدال\n🐻 دب",
+       "introSpeak": "هذا حرف الدال. دب",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الدال؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "و",
+          "ذ",
+          "م",
+          "د"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الدال",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "و",
+          "ذ",
+          "ز",
+          "د"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف د؟",
+         "speak": "أي كلمة تبدأ بحرف الدال؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐫 جمل",
+          "🍌 موز",
+          "🐻 دب",
+          "🦒 زرافة"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة دب؟",
+         "speak": "بأي حرف تبدأ كلمة دب؟",
+         "show": "🐻",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ف",
+          "ذ",
+          "م",
+          "د"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "ar1_10",
+       "title": "مراجعة: ج ح خ د",
+       "icon": "🔁",
+       "introBig": "ج ح خ د",
+       "introText": "لنراجع ما تعلّمناه",
+       "introSpeak": "هيا نراجع الحروف التي تعلّمناها",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الجيم؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "خ",
+          "ح",
+          "ه",
+          "ج"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الحاء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ج",
+          "غ",
+          "خ",
+          "ح"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة خروف؟",
+         "speak": "بأي حرف تبدأ كلمة خروف؟",
+         "show": "🐑",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ح",
+          "ج",
+          "خ",
+          "ن"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف الدال؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ي",
+          "د",
+          "ه",
+          "ذ"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الجيم",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ح",
+          "ج",
+          "ه",
+          "خ"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة حصان؟",
+         "speak": "بأي حرف تبدأ كلمة حصان؟",
+         "show": "🐴",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ج",
+          "ح",
+          "ي",
+          "خ"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "ar1_11",
+       "title": "حرف الذال  ذ",
+       "icon": "🌽",
+       "introBig": "ذ",
+       "introText": "هذا حرف الذال\n🌽 ذرة",
+       "introSpeak": "هذا حرف الذال. ذرة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الذال؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ل",
+          "ن",
+          "ذ",
+          "د"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الذال",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ا",
+          "ط",
+          "ذ",
+          "د"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ذ؟",
+         "speak": "أي كلمة تبدأ بحرف الذال؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐝 نحلة",
+          "🌽 ذرة",
+          "🌙 قمر",
+          "🦆 بطة"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة ذرة؟",
+         "speak": "بأي حرف تبدأ كلمة ذرة؟",
+         "show": "🌽",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ا",
+          "ص",
+          "ذ",
+          "د"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar1_12",
+       "title": "حرف الراء  ر",
+       "icon": "📩",
+       "introBig": "ر",
+       "introText": "هذا حرف الراء\n📩 رسالة",
+       "introSpeak": "هذا حرف الراء. رسالة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الراء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ز",
+          "ي",
+          "ع",
+          "ر"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الراء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ز",
+          "ر",
+          "ق",
+          "ن"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ر؟",
+         "speak": "أي كلمة تبدأ بحرف الراء؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍎 تفاحة",
+          "☀️ شمس",
+          "📩 رسالة",
+          "🦊 ثعلب"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة رسالة؟",
+         "speak": "بأي حرف تبدأ كلمة رسالة؟",
+         "show": "📩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ص",
+          "ز",
+          "ر",
+          "م"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar1_13",
+       "title": "حرف الزاي  ز",
+       "icon": "🦒",
+       "introBig": "ز",
+       "introText": "هذا حرف الزاي\n🦒 زرافة",
+       "introSpeak": "هذا حرف الزاي. زرافة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الزاي؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ل",
+          "ز",
+          "ر",
+          "ع"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الزاي",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ن",
+          "ر",
+          "ي",
+          "ز"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ز؟",
+         "speak": "أي كلمة تبدأ بحرف الزاي؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🦒 زرافة",
+          "🦅 صقر",
+          "📖 كتاب",
+          "🐸 ضفدع"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة زرافة؟",
+         "speak": "بأي حرف تبدأ كلمة زرافة؟",
+         "show": "🦒",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ر",
+          "ز",
+          "س",
+          "ب"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "ar1_14",
+       "title": "حرف السين  س",
+       "icon": "🐟",
+       "introBig": "س",
+       "introText": "هذا حرف السين\n🐟 سمكة",
+       "introSpeak": "هذا حرف السين. سمكة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف السين؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ص",
+          "ل",
+          "ش",
+          "س"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف السين",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ش",
+          "س",
+          "ط",
+          "ص"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف س؟",
+         "speak": "أي كلمة تبدأ بحرف السين؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐟 سمكة",
+          "✈️ طائرة",
+          "🍎 تفاحة",
+          "🐘 فيل"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة سمكة؟",
+         "speak": "بأي حرف تبدأ كلمة سمكة؟",
+         "show": "🐟",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ش",
+          "ق",
+          "س",
+          "ز"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar1_15",
+       "title": "مراجعة: ذ ر ز س",
+       "icon": "🔁",
+       "introBig": "ذ ر ز س",
+       "introText": "لنراجع ما تعلّمناه",
+       "introSpeak": "هيا نراجع الحروف التي تعلّمناها",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الذال؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "د",
+          "ذ",
+          "ح",
+          "ل"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الراء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "د",
+          "ز",
+          "ر",
+          "ث"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة زرافة؟",
+         "speak": "بأي حرف تبدأ كلمة زرافة؟",
+         "show": "🦒",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ص",
+          "ق",
+          "ز",
+          "ر"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف السين؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ر",
+          "ي",
+          "ش",
+          "س"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الذال",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ش",
+          "د",
+          "ذ",
+          "ت"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة رسالة؟",
+         "speak": "بأي حرف تبدأ كلمة رسالة؟",
+         "show": "📩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ر",
+          "م",
+          "ا",
+          "ز"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "ar1_16",
+       "title": "حرف الشين  ش",
+       "icon": "☀️",
+       "introBig": "ش",
+       "introText": "هذا حرف الشين\n☀️ شمس",
+       "introSpeak": "هذا حرف الشين. شمس",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الشين؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ش",
+          "س",
+          "ن",
+          "ط"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الشين",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "س",
+          "ش",
+          "ع",
+          "و"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ش؟",
+         "speak": "أي كلمة تبدأ بحرف الشين؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "☀️ شمس",
+          "🐫 جمل",
+          "🎁 هدية",
+          "☁️ غيمة"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة شمس؟",
+         "speak": "بأي حرف تبدأ كلمة شمس؟",
+         "show": "☀️",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "س",
+          "ب",
+          "ش",
+          "ر"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar1_17",
+       "title": "حرف الصاد  ص",
+       "icon": "🦅",
+       "introBig": "ص",
+       "introText": "هذا حرف الصاد\n🦅 صقر",
+       "introSpeak": "هذا حرف الصاد. صقر",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الصاد؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ت",
+          "ض",
+          "ص",
+          "ر"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الصاد",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ع",
+          "ص",
+          "ض",
+          "ذ"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ص؟",
+         "speak": "أي كلمة تبدأ بحرف الصاد؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "✋ يد",
+          "🐘 فيل",
+          "🐻 دب",
+          "🦅 صقر"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة صقر؟",
+         "speak": "بأي حرف تبدأ كلمة صقر؟",
+         "show": "🦅",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ذ",
+          "ض",
+          "ي",
+          "ص"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "ar1_18",
+       "title": "حرف الضاد  ض",
+       "icon": "🐸",
+       "introBig": "ض",
+       "introText": "هذا حرف الضاد\n🐸 ضفدع",
+       "introSpeak": "هذا حرف الضاد. ضفدع",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الضاد؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ل",
+          "ص",
+          "ض",
+          "ذ"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الضاد",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ص",
+          "ر",
+          "ف",
+          "ض"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ض؟",
+         "speak": "أي كلمة تبدأ بحرف الضاد؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐸 ضفدع",
+          "🐝 نحلة",
+          "🍇 عنب",
+          "🐰 أرنب"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة ضفدع؟",
+         "speak": "بأي حرف تبدأ كلمة ضفدع؟",
+         "show": "🐸",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ت",
+          "ب",
+          "ص",
+          "ض"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "ar1_19",
+       "title": "حرف الطاء  ط",
+       "icon": "✈️",
+       "introBig": "ط",
+       "introText": "هذا حرف الطاء\n✈️ طائرة",
+       "introSpeak": "هذا حرف الطاء. طائرة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الطاء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ظ",
+          "ر",
+          "و",
+          "ط"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الطاء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ز",
+          "ط",
+          "ظ",
+          "ق"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ط؟",
+         "speak": "أي كلمة تبدأ بحرف الطاء؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍎 تفاحة",
+          "🐝 نحلة",
+          "✈️ طائرة",
+          "🐑 خروف"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة طائرة؟",
+         "speak": "بأي حرف تبدأ كلمة طائرة؟",
+         "show": "✈️",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ز",
+          "ظ",
+          "ذ",
+          "ط"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "ar1_20",
+       "title": "مراجعة: ش ص ض ط",
+       "icon": "🔁",
+       "introBig": "ش ص ض ط",
+       "introText": "لنراجع ما تعلّمناه",
+       "introSpeak": "هيا نراجع الحروف التي تعلّمناها",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الشين؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "س",
+          "ه",
+          "ك",
+          "ش"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الصاد",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ص",
+          "ع",
+          "ض",
+          "ك"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة ضفدع؟",
+         "speak": "بأي حرف تبدأ كلمة ضفدع؟",
+         "show": "🐸",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ض",
+          "ك",
+          "ص",
+          "ط"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف الطاء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ع",
+          "ز",
+          "ط",
+          "ظ"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الشين",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ه",
+          "ب",
+          "ش",
+          "س"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة صقر؟",
+         "speak": "بأي حرف تبدأ كلمة صقر؟",
+         "show": "🦅",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ض",
+          "ظ",
+          "ص",
+          "ث"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar1_21",
+       "title": "حرف الظاء  ظ",
+       "icon": "🦌",
+       "introBig": "ظ",
+       "introText": "هذا حرف الظاء\n🦌 ظبي",
+       "introSpeak": "هذا حرف الظاء. ظبي",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الظاء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ث",
+          "ج",
+          "ظ",
+          "ط"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الظاء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ع",
+          "ظ",
+          "ط",
+          "ق"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ظ؟",
+         "speak": "أي كلمة تبدأ بحرف الظاء؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐑 خروف",
+          "📖 كتاب",
+          "🐴 حصان",
+          "🦌 ظبي"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة ظبي؟",
+         "speak": "بأي حرف تبدأ كلمة ظبي؟",
+         "show": "🦌",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ث",
+          "ج",
+          "ظ",
+          "ط"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar1_22",
+       "title": "حرف العين  ع",
+       "icon": "🍇",
+       "introBig": "ع",
+       "introText": "هذا حرف العين\n🍇 عنب",
+       "introSpeak": "هذا حرف العين. عنب",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف العين؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ع",
+          "د",
+          "ر",
+          "غ"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف العين",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ي",
+          "ع",
+          "غ",
+          "و"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ع؟",
+         "speak": "أي كلمة تبدأ بحرف العين؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐟 سمكة",
+          "🍇 عنب",
+          "🍎 تفاحة",
+          "📩 رسالة"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة عنب؟",
+         "speak": "بأي حرف تبدأ كلمة عنب؟",
+         "show": "🍇",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ث",
+          "ت",
+          "غ",
+          "ع"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "ar1_23",
+       "title": "حرف الغين  غ",
+       "icon": "☁️",
+       "introBig": "غ",
+       "introText": "هذا حرف الغين\n☁️ غيمة",
+       "introSpeak": "هذا حرف الغين. غيمة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الغين؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ع",
+          "غ",
+          "د",
+          "ه"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الغين",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ط",
+          "ث",
+          "غ",
+          "ع"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف غ؟",
+         "speak": "أي كلمة تبدأ بحرف الغين؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "☁️ غيمة",
+          "📖 كتاب",
+          "🐻 دب",
+          "🐑 خروف"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة غيمة؟",
+         "speak": "بأي حرف تبدأ كلمة غيمة؟",
+         "show": "☁️",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ع",
+          "غ",
+          "د",
+          "ب"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "ar1_24",
+       "title": "حرف الفاء  ف",
+       "icon": "🐘",
+       "introBig": "ف",
+       "introText": "هذا حرف الفاء\n🐘 فيل",
+       "introSpeak": "هذا حرف الفاء. فيل",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الفاء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ف",
+          "ض",
+          "ر",
+          "ق"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الفاء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ق",
+          "ذ",
+          "ز",
+          "ف"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ف؟",
+         "speak": "أي كلمة تبدأ بحرف الفاء؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🌹 وردة",
+          "📩 رسالة",
+          "🐘 فيل",
+          "🐝 نحلة"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة فيل؟",
+         "speak": "بأي حرف تبدأ كلمة فيل؟",
+         "show": "🐘",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "س",
+          "م",
+          "ق",
+          "ف"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "ar1_25",
+       "title": "مراجعة: ظ ع غ ف",
+       "icon": "🔁",
+       "introBig": "ظ ع غ ف",
+       "introText": "لنراجع ما تعلّمناه",
+       "introSpeak": "هيا نراجع الحروف التي تعلّمناها",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الظاء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "س",
+          "د",
+          "ط",
+          "ظ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف العين",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ع",
+          "ف",
+          "ج",
+          "غ"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة غيمة؟",
+         "speak": "بأي حرف تبدأ كلمة غيمة؟",
+         "show": "☁️",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ع",
+          "ا",
+          "م",
+          "غ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف الفاء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ث",
+          "ق",
+          "ظ",
+          "ف"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الظاء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ظ",
+          "ن",
+          "ذ",
+          "ط"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة عنب؟",
+         "speak": "بأي حرف تبدأ كلمة عنب؟",
+         "show": "🍇",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ف",
+          "ع",
+          "غ",
+          "ز"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "ar1_26",
+       "title": "حرف القاف  ق",
+       "icon": "🌙",
+       "introBig": "ق",
+       "introText": "هذا حرف القاف\n🌙 قمر",
+       "introSpeak": "هذا حرف القاف. قمر",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف القاف؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "و",
+          "ف",
+          "ق",
+          "ن"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف القاف",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "د",
+          "ق",
+          "ر",
+          "ف"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ق؟",
+         "speak": "أي كلمة تبدأ بحرف القاف؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "✈️ طائرة",
+          "🐴 حصان",
+          "🌹 وردة",
+          "🌙 قمر"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة قمر؟",
+         "speak": "بأي حرف تبدأ كلمة قمر؟",
+         "show": "🌙",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ف",
+          "خ",
+          "ق",
+          "ي"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar1_27",
+       "title": "حرف الكاف  ك",
+       "icon": "📖",
+       "introBig": "ك",
+       "introText": "هذا حرف الكاف\n📖 كتاب",
+       "introSpeak": "هذا حرف الكاف. كتاب",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الكاف؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ل",
+          "ك",
+          "ث",
+          "غ"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الكاف",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ب",
+          "ك",
+          "ر",
+          "ل"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ك؟",
+         "speak": "أي كلمة تبدأ بحرف الكاف؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐘 فيل",
+          "🍇 عنب",
+          "📖 كتاب",
+          "🍎 تفاحة"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة كتاب؟",
+         "speak": "بأي حرف تبدأ كلمة كتاب؟",
+         "show": "📖",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ل",
+          "ج",
+          "ك",
+          "ث"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar1_28",
+       "title": "حرف اللام  ل",
+       "icon": "🍋",
+       "introBig": "ل",
+       "introText": "هذا حرف اللام\n🍋 ليمون",
+       "introSpeak": "هذا حرف اللام. ليمون",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف اللام؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ل",
+          "ت",
+          "ش",
+          "ك"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف اللام",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ك",
+          "م",
+          "ل",
+          "ه"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ل؟",
+         "speak": "أي كلمة تبدأ بحرف اللام؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍋 ليمون",
+          "🌙 قمر",
+          "☀️ شمس",
+          "🦒 زرافة"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة ليمون؟",
+         "speak": "بأي حرف تبدأ كلمة ليمون؟",
+         "show": "🍋",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ل",
+          "ب",
+          "ك",
+          "ز"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "ar1_29",
+       "title": "حرف الميم  م",
+       "icon": "🍌",
+       "introBig": "م",
+       "introText": "هذا حرف الميم\n🍌 موز",
+       "introSpeak": "هذا حرف الميم. موز",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الميم؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ا",
+          "م",
+          "و",
+          "ه"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الميم",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ه",
+          "و",
+          "م",
+          "ا"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف م؟",
+         "speak": "أي كلمة تبدأ بحرف الميم؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍌 موز",
+          "📩 رسالة",
+          "🎁 هدية",
+          "🐸 ضفدع"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة موز؟",
+         "speak": "بأي حرف تبدأ كلمة موز؟",
+         "show": "🍌",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ه",
+          "ا",
+          "م",
+          "و"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar1_30",
+       "title": "مراجعة: ق ك ل م",
+       "icon": "🔁",
+       "introBig": "ق ك ل م",
+       "introText": "لنراجع ما تعلّمناه",
+       "introSpeak": "هيا نراجع الحروف التي تعلّمناها",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف القاف؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ن",
+          "ق",
+          "ف",
+          "ص"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الكاف",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ش",
+          "ا",
+          "ل",
+          "ك"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة ليمون؟",
+         "speak": "بأي حرف تبدأ كلمة ليمون؟",
+         "show": "🍋",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ط",
+          "ك",
+          "ه",
+          "ل"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف الميم؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ه",
+          "و",
+          "م",
+          "ا"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف القاف",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ض",
+          "م",
+          "ف",
+          "ق"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة كتاب؟",
+         "speak": "بأي حرف تبدأ كلمة كتاب؟",
+         "show": "📖",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "خ",
+          "ط",
+          "ك",
+          "ل"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar1_31",
+       "title": "حرف النون  ن",
+       "icon": "🐝",
+       "introBig": "ن",
+       "introText": "هذا حرف النون\n🐝 نحلة",
+       "introSpeak": "هذا حرف النون. نحلة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف النون؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ي",
+          "ت",
+          "ن",
+          "ب"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف النون",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ث",
+          "ت",
+          "ي",
+          "ن"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ن؟",
+         "speak": "أي كلمة تبدأ بحرف النون؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐰 أرنب",
+          "🦌 ظبي",
+          "🦊 ثعلب",
+          "🐝 نحلة"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة نحلة؟",
+         "speak": "بأي حرف تبدأ كلمة نحلة؟",
+         "show": "🐝",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ي",
+          "ث",
+          "ن",
+          "ب"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar1_32",
+       "title": "حرف الهاء  ه",
+       "icon": "🎁",
+       "introBig": "ه",
+       "introText": "هذا حرف الهاء\n🎁 هدية",
+       "introSpeak": "هذا حرف الهاء. هدية",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الهاء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "و",
+          "ه",
+          "ا",
+          "م"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الهاء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ا",
+          "ه",
+          "م",
+          "و"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ه؟",
+         "speak": "أي كلمة تبدأ بحرف الهاء؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🦆 بطة",
+          "🎁 هدية",
+          "🐴 حصان",
+          "🐑 خروف"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة هدية؟",
+         "speak": "بأي حرف تبدأ كلمة هدية؟",
+         "show": "🎁",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ه",
+          "م",
+          "ا",
+          "و"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "ar1_33",
+       "title": "حرف الواو  و",
+       "icon": "🌹",
+       "introBig": "و",
+       "introText": "هذا حرف الواو\n🌹 وردة",
+       "introSpeak": "هذا حرف الواو. وردة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الواو؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "م",
+          "و",
+          "ه",
+          "ا"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الواو",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ا",
+          "م",
+          "ه",
+          "و"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف و؟",
+         "speak": "أي كلمة تبدأ بحرف الواو؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🦆 بطة",
+          "🌹 وردة",
+          "🦌 ظبي",
+          "✈️ طائرة"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة وردة؟",
+         "speak": "بأي حرف تبدأ كلمة وردة؟",
+         "show": "🌹",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "م",
+          "ا",
+          "ه",
+          "و"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "ar1_34",
+       "title": "حرف الياء  ي",
+       "icon": "✋",
+       "introBig": "ي",
+       "introText": "هذا حرف الياء\n✋ يد",
+       "introSpeak": "هذا حرف الياء. يد",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف الياء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ب",
+          "ن",
+          "ت",
+          "ي"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الياء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ب",
+          "ن",
+          "ت",
+          "ي"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي كلمة تبدأ بحرف ي؟",
+         "speak": "أي كلمة تبدأ بحرف الياء؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍋 ليمون",
+          "✋ يد",
+          "🦊 ثعلب",
+          "🌙 قمر"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة يد؟",
+         "speak": "بأي حرف تبدأ كلمة يد؟",
+         "show": "✋",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ث",
+          "ب",
+          "ي",
+          "ت"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar1_35",
+       "title": "مراجعة: ن ه و ي",
+       "icon": "🔁",
+       "introBig": "ن ه و ي",
+       "introText": "لنراجع ما تعلّمناه",
+       "introSpeak": "هيا نراجع الحروف التي تعلّمناها",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين حرف النون؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ن",
+          "ت",
+          "ث",
+          "ي"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف الهاء",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "و",
+          "م",
+          "ا",
+          "ه"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة وردة؟",
+         "speak": "بأي حرف تبدأ كلمة وردة؟",
+         "show": "🌹",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "م",
+          "و",
+          "ه",
+          "ا"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين حرف الياء؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ي",
+          "ن",
+          "ت",
+          "ث"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "listen",
+         "prompt": "اسمع، ثم اختر الحرف",
+         "speak": "حرف النون",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ن",
+          "ب",
+          "ت",
+          "ي"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "بأي حرف تبدأ كلمة هدية؟",
+         "speak": "بأي حرف تبدأ كلمة هدية؟",
+         "show": "🎁",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ه",
+          "ا",
+          "و",
+          "م"
+         ],
+         "answer": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "title": "المستوى الثاني: الحركات والكلمات",
+     "lessons": [
+      {
+       "id": "ar2_01",
+       "title": "الفتحة",
+       "icon": "✏️",
+       "introBig": "بَ  سَ  مَ",
+       "introText": "هذه الفتحة، نضعها على الحرف فيتغيّر صوته",
+       "introSpeak": "هذه الفتحة. بَ. سَ. مَ",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه فتحة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "بُ",
+          "بَ",
+          "بِ",
+          "بْ"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه فتحة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "سِ",
+          "سْ",
+          "سَ",
+          "سُ"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه فتحة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "مَ",
+          "مُ",
+          "مْ",
+          "مِ"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه فتحة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "رِ",
+          "رُ",
+          "رْ",
+          "رَ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه فتحة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "تِ",
+          "تَ",
+          "تْ",
+          "تُ"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "ar2_02",
+       "title": "الضمة",
+       "icon": "✏️",
+       "introBig": "كُ  فُ  نُ",
+       "introText": "هذه الضمة، نضعها على الحرف فيتغيّر صوته",
+       "introSpeak": "هذه الضمة. كُ. فُ. نُ",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه ضمة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "كْ",
+          "كَ",
+          "كُ",
+          "كِ"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه ضمة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "فَ",
+          "فْ",
+          "فِ",
+          "فُ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه ضمة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "نَ",
+          "نْ",
+          "نِ",
+          "نُ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه ضمة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "مْ",
+          "مَ",
+          "مِ",
+          "مُ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه ضمة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "رِ",
+          "رَ",
+          "رْ",
+          "رُ"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "ar2_03",
+       "title": "الكسرة",
+       "icon": "✏️",
+       "introBig": "تِ  بِ  لِ",
+       "introText": "هذه الكسرة، نضعها على الحرف فيتغيّر صوته",
+       "introSpeak": "هذه الكسرة. تِ. بِ. لِ",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه كسرة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "تِ",
+          "تْ",
+          "تُ",
+          "تَ"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه كسرة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "بَ",
+          "بِ",
+          "بْ",
+          "بُ"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه كسرة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "لُ",
+          "لْ",
+          "لَ",
+          "لِ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه كسرة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "كُ",
+          "كِ",
+          "كَ",
+          "كْ"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه كسرة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "رَ",
+          "رْ",
+          "رُ",
+          "رِ"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "ar2_04",
+       "title": "مراجعة الحركات 1",
+       "icon": "🔁",
+       "introBig": "َ ُ ِ",
+       "introText": "فتحة، ضمة، كسرة",
+       "introSpeak": "هيا نراجع الفتحة والضمة والكسرة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه كسرة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "تَ",
+          "تُ",
+          "تْ",
+          "تِ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه ضمة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "مَ",
+          "مُ",
+          "مْ",
+          "مِ"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه فتحة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "نْ",
+          "نِ",
+          "نُ",
+          "نَ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه ضمة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "دَ",
+          "دُ",
+          "دْ",
+          "دِ"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه ضمة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "فْ",
+          "فِ",
+          "فَ",
+          "فُ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه كسرة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "رِ",
+          "رُ",
+          "رَ",
+          "رْ"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "ar2_05",
+       "title": "مراجعة الحركات 2",
+       "icon": "🔁",
+       "introBig": "َ ُ ِ",
+       "introText": "فتحة، ضمة، كسرة",
+       "introSpeak": "هيا نراجع الفتحة والضمة والكسرة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه كسرة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "سْ",
+          "سُ",
+          "سَ",
+          "سِ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه فتحة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "لِ",
+          "لَ",
+          "لْ",
+          "لُ"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه كسرة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "دُ",
+          "دَ",
+          "دْ",
+          "دِ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه ضمة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "كِ",
+          "كُ",
+          "كَ",
+          "كْ"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه كسرة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "مُ",
+          "مَ",
+          "مِ",
+          "مْ"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين الحرف الذي عليه فتحة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "فِ",
+          "فَ",
+          "فُ",
+          "فْ"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "ar2_06",
+       "title": "كلمة وصورة 1",
+       "icon": "🖼️",
+       "introBig": "🐰",
+       "introText": "نقرأ الكلمة ونعرف صورتها",
+       "introSpeak": "هيا نقرأ الكلمات ونعرف صورها",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "🐰",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "أرنب",
+          "طائرة",
+          "كتاب",
+          "ذرة"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي صورة لهذه الكلمة؟",
+         "speak": "أي صورة لكلمة حصان؟",
+         "show": "حصان",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍇",
+          "🐴",
+          "☀️",
+          "🦒"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "🦒",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ليمون",
+          "عنب",
+          "غيمة",
+          "زرافة"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي صورة لهذه الكلمة؟",
+         "speak": "أي صورة لكلمة طائرة؟",
+         "show": "طائرة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🌽",
+          "🦅",
+          "🍋",
+          "✈️"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "🌙",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "هدية",
+          "تفاحة",
+          "ثعلب",
+          "قمر"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي صورة لهذه الكلمة؟",
+         "speak": "أي صورة لكلمة هدية؟",
+         "show": "هدية",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🍋",
+          "🎁",
+          "✋",
+          "🐫"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "ar2_07",
+       "title": "كلمة وصورة 2",
+       "icon": "🖼️",
+       "introBig": "🦆",
+       "introText": "نقرأ الكلمة ونعرف صورتها",
+       "introSpeak": "هيا نقرأ الكلمات ونعرف صورها",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "🦆",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "طائرة",
+          "سمكة",
+          "تفاحة",
+          "بطة"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي صورة لهذه الكلمة؟",
+         "speak": "أي صورة لكلمة خروف؟",
+         "show": "خروف",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🌽",
+          "🐑",
+          "🐰",
+          "🌙"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "🐟",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "رسالة",
+          "غيمة",
+          "أرنب",
+          "سمكة"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي صورة لهذه الكلمة؟",
+         "speak": "أي صورة لكلمة ظبي؟",
+         "show": "ظبي",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "📩",
+          "🎁",
+          "🦌",
+          "🍋"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "📖",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "كتاب",
+          "شمس",
+          "تفاحة",
+          "غيمة"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي صورة لهذه الكلمة؟",
+         "speak": "أي صورة لكلمة وردة؟",
+         "show": "وردة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐝",
+          "🦌",
+          "🌹",
+          "✋"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar2_08",
+       "title": "كلمة وصورة 3",
+       "icon": "🖼️",
+       "introBig": "🍎",
+       "introText": "نقرأ الكلمة ونعرف صورتها",
+       "introSpeak": "هيا نقرأ الكلمات ونعرف صورها",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "🍎",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "نحلة",
+          "ذرة",
+          "شمس",
+          "تفاحة"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي صورة لهذه الكلمة؟",
+         "speak": "أي صورة لكلمة دب؟",
+         "show": "دب",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐻",
+          "🐫",
+          "🌽",
+          "🐰"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "☀️",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "كتاب",
+          "تفاحة",
+          "حصان",
+          "شمس"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي صورة لهذه الكلمة؟",
+         "speak": "أي صورة لكلمة عنب؟",
+         "show": "عنب",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "📩",
+          "🎁",
+          "📖",
+          "🍇"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "🍋",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "زرافة",
+          "عنب",
+          "ليمون",
+          "ذرة"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أي صورة لهذه الكلمة؟",
+         "speak": "أي صورة لكلمة يد؟",
+         "show": "يد",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "✋",
+          "🦆",
+          "🐴",
+          "📖"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "ar2_09",
+       "title": "كلمة وصورة 4",
+       "icon": "🖼️",
+       "introBig": "🦊",
+       "introText": "نقرأ الكلمة ونعرف صورتها",
+       "introSpeak": "هيا نقرأ الكلمات ونعرف صورها",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "🦊",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "قمر",
+          "أرنب",
+          "كتاب",
+          "ثعلب"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي صورة لهذه الكلمة؟",
+         "speak": "أي صورة لكلمة ذرة؟",
+         "show": "ذرة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🌽",
+          "🦊",
+          "🐫",
+          "🐟"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "🦅",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "صقر",
+          "كتاب",
+          "فيل",
+          "ليمون"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي صورة لهذه الكلمة؟",
+         "speak": "أي صورة لكلمة غيمة؟",
+         "show": "غيمة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "☁️",
+          "🌽",
+          "🦆",
+          "🎁"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "🍌",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "موز",
+          "ثعلب",
+          "عنب",
+          "هدية"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "ar2_10",
+       "title": "كلمة وصورة 5",
+       "icon": "🖼️",
+       "introBig": "🐫",
+       "introText": "نقرأ الكلمة ونعرف صورتها",
+       "introSpeak": "هيا نقرأ الكلمات ونعرف صورها",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "🐫",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "جمل",
+          "تفاحة",
+          "ضفدع",
+          "كتاب"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي صورة لهذه الكلمة؟",
+         "speak": "أي صورة لكلمة رسالة؟",
+         "show": "رسالة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🐘",
+          "🐝",
+          "🍌",
+          "📩"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "🐸",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "عنب",
+          "طائرة",
+          "ذرة",
+          "ضفدع"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أي صورة لهذه الكلمة؟",
+         "speak": "أي صورة لكلمة فيل؟",
+         "show": "فيل",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🦒",
+          "☁️",
+          "🍎",
+          "🐘"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذه الصورة؟",
+         "speak": "",
+         "show": "🐝",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "نحلة",
+          "صقر",
+          "ذرة",
+          "زرافة"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "ar2_11",
+       "title": "الحرف الناقص 1",
+       "icon": "🧩",
+       "introBig": "؟",
+       "introText": "انظر إلى الصورة، واعرف الحرف الأول",
+       "introSpeak": "ما الحرف الناقص؟ انظر إلى الصورة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة أرنب؟",
+         "show": "🐰  ؟رنب",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ه",
+          "م",
+          "أ",
+          "و"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة حصان؟",
+         "show": "🐴  ؟صان",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "خ",
+          "ر",
+          "ح",
+          "ج"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة زرافة؟",
+         "show": "🦒  ؟رافة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ض",
+          "ر",
+          "ز",
+          "ف"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة طائرة؟",
+         "show": "✈️  ؟ائرة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ط",
+          "ج",
+          "ظ",
+          "خ"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة قمر؟",
+         "show": "🌙  ؟مر",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ظ",
+          "ق",
+          "ب",
+          "ف"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة هدية؟",
+         "show": "🎁  ؟دية",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "م",
+          "و",
+          "ا",
+          "ه"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "ar2_12",
+       "title": "الحرف الناقص 2",
+       "icon": "🧩",
+       "introBig": "؟",
+       "introText": "انظر إلى الصورة، واعرف الحرف الأول",
+       "introSpeak": "ما الحرف الناقص؟ انظر إلى الصورة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة بطة؟",
+         "show": "🦆  ؟طة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ي",
+          "ب",
+          "ن",
+          "ت"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة خروف؟",
+         "show": "🐑  ؟روف",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ط",
+          "ج",
+          "خ",
+          "ح"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة سمكة؟",
+         "show": "🐟  ؟مكة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ح",
+          "س",
+          "ب",
+          "ش"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة ظبي؟",
+         "show": "🦌  ؟بي",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ظ",
+          "ط",
+          "س",
+          "ع"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة كتاب؟",
+         "show": "📖  ؟تاب",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ل",
+          "ك",
+          "ت",
+          "ث"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة وردة؟",
+         "show": "🌹  ؟ردة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ه",
+          "م",
+          "ا",
+          "و"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "ar2_13",
+       "title": "الحرف الناقص 3",
+       "icon": "🧩",
+       "introBig": "؟",
+       "introText": "انظر إلى الصورة، واعرف الحرف الأول",
+       "introSpeak": "ما الحرف الناقص؟ انظر إلى الصورة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة تفاحة؟",
+         "show": "🍎  ؟فاحة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ت",
+          "ن",
+          "ي",
+          "ب"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة دب؟",
+         "show": "🐻  ؟ب",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ص",
+          "د",
+          "ذ",
+          "ظ"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة شمس؟",
+         "show": "☀️  ؟مس",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "س",
+          "ش",
+          "غ",
+          "ذ"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة عنب؟",
+         "show": "🍇  ؟نب",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ع",
+          "ز",
+          "غ",
+          "ذ"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة ليمون؟",
+         "show": "🍋  ؟يمون",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ل",
+          "غ",
+          "ح",
+          "ك"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة يد؟",
+         "show": "✋  ؟د",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ب",
+          "ن",
+          "ت",
+          "ي"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "ar2_14",
+       "title": "الحرف الناقص 4",
+       "icon": "🧩",
+       "introBig": "؟",
+       "introText": "انظر إلى الصورة، واعرف الحرف الأول",
+       "introSpeak": "ما الحرف الناقص؟ انظر إلى الصورة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة ثعلب؟",
+         "show": "🦊  ؟علب",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ب",
+          "ن",
+          "ت",
+          "ث"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة ذرة؟",
+         "show": "🌽  ؟رة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "د",
+          "غ",
+          "ن",
+          "ذ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة صقر؟",
+         "show": "🦅  ؟قر",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ص",
+          "ض",
+          "غ",
+          "ظ"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة غيمة؟",
+         "show": "☁️  ؟يمة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "د",
+          "ع",
+          "ج",
+          "غ"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة موز؟",
+         "show": "🍌  ؟وز",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ا",
+          "و",
+          "م",
+          "ه"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "ar2_15",
+       "title": "الحرف الناقص 5",
+       "icon": "🧩",
+       "introBig": "؟",
+       "introText": "انظر إلى الصورة، واعرف الحرف الأول",
+       "introSpeak": "ما الحرف الناقص؟ انظر إلى الصورة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة جمل؟",
+         "show": "🐫  ؟مل",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ك",
+          "ح",
+          "ج",
+          "خ"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة رسالة؟",
+         "show": "📩  ؟سالة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ش",
+          "ز",
+          "ث",
+          "ر"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة ضفدع؟",
+         "show": "🐸  ؟فدع",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ف",
+          "ص",
+          "ض",
+          "ر"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة فيل؟",
+         "show": "🐘  ؟يل",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ي",
+          "ف",
+          "ش",
+          "ق"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما الحرف الناقص؟",
+         "speak": "ما الحرف الناقص في كلمة نحلة؟",
+         "show": "🐝  ؟حلة",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "ن",
+          "ت",
+          "ث",
+          "ب"
+         ],
+         "answer": 0
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math",
+   "title": "الرياضيات",
+   "icon": "🔢",
+   "levels": [
+    {
+     "level": 1,
+     "title": "المستوى الأول: الأعداد والأشكال",
+     "lessons": [
+      {
+       "id": "m1_01",
+       "title": "الأعداد 1 - 3",
+       "icon": "🔢",
+       "introBig": "1  2  3",
+       "introText": "نتعلّم الأعداد ونعدّ الأشياء",
+       "introSpeak": "هيا نتعلّم الأعداد. 1. 2. 3",
+       "exercises": [
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 1,
+         "countEmoji": "🐟",
+         "options": [
+          "3",
+          "1",
+          "4",
+          "2"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 1,
+         "countEmoji": "🐟",
+         "options": [
+          "3",
+          "4",
+          "1",
+          "2"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 3,
+         "countEmoji": "🌸",
+         "options": [
+          "3",
+          "5",
+          "6",
+          "1"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أين العدد 3؟",
+         "speak": "أين العدد 3؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "3",
+          "4",
+          "6",
+          "1"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أين العدد 1؟",
+         "speak": "أين العدد 1؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "2",
+          "4",
+          "1",
+          "3"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "m1_02",
+       "title": "الأعداد 4 - 6",
+       "icon": "🔢",
+       "introBig": "4  5  6",
+       "introText": "نتعلّم الأعداد ونعدّ الأشياء",
+       "introSpeak": "هيا نتعلّم الأعداد. 4. 5. 6",
+       "exercises": [
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 5,
+         "countEmoji": "🍎",
+         "options": [
+          "5",
+          "4",
+          "6",
+          "7"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 4,
+         "countEmoji": "🍇",
+         "options": [
+          "5",
+          "7",
+          "4",
+          "2"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 4,
+         "countEmoji": "🐤",
+         "options": [
+          "3",
+          "2",
+          "4",
+          "6"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين العدد 5؟",
+         "speak": "أين العدد 5؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "5",
+          "8",
+          "6",
+          "3"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أين العدد 4؟",
+         "speak": "أين العدد 4؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "6",
+          "1",
+          "4",
+          "5"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "m1_03",
+       "title": "الأعداد 7 - 9",
+       "icon": "🔢",
+       "introBig": "7  8  9",
+       "introText": "نتعلّم الأعداد ونعدّ الأشياء",
+       "introSpeak": "هيا نتعلّم الأعداد. 7. 8. 9",
+       "exercises": [
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 9,
+         "countEmoji": "🌸",
+         "options": [
+          "8",
+          "9",
+          "7",
+          "6"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 9,
+         "countEmoji": "🐤",
+         "options": [
+          "6",
+          "9",
+          "8",
+          "7"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 7,
+         "countEmoji": "⚽",
+         "options": [
+          "9",
+          "7",
+          "8",
+          "4"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين العدد 8؟",
+         "speak": "أين العدد 8؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "8",
+          "10",
+          "6",
+          "5"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أين العدد 8؟",
+         "speak": "أين العدد 8؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "7",
+          "10",
+          "5",
+          "8"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "m1_04",
+       "title": "العدد 10",
+       "icon": "🔢",
+       "introBig": "10",
+       "introText": "نتعلّم الأعداد ونعدّ الأشياء",
+       "introSpeak": "هيا نتعلّم الأعداد. 10",
+       "exercises": [
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 10,
+         "countEmoji": "🍋",
+         "options": [
+          "10",
+          "7",
+          "9",
+          "8"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 10,
+         "countEmoji": "🐟",
+         "options": [
+          "9",
+          "7",
+          "10",
+          "8"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 10,
+         "countEmoji": "🍎",
+         "options": [
+          "7",
+          "8",
+          "10",
+          "9"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين العدد 10؟",
+         "speak": "أين العدد 10؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "7",
+          "10",
+          "8",
+          "9"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين العدد 10؟",
+         "speak": "أين العدد 10؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "10",
+          "7",
+          "9",
+          "8"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "m1_05",
+       "title": "نعدّ الأشياء 1",
+       "icon": "🍎",
+       "introBig": "🍎🍎🍎",
+       "introText": "عُدّ الأشياء واحداً واحداً",
+       "introSpeak": "هيا نعدّ الأشياء معاً",
+       "exercises": [
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 6,
+         "countEmoji": "🍎",
+         "options": [
+          "6",
+          "3",
+          "7",
+          "5"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 10,
+         "countEmoji": "🍇",
+         "options": [
+          "10",
+          "9",
+          "7",
+          "8"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 5,
+         "countEmoji": "🍇",
+         "options": [
+          "5",
+          "2",
+          "6",
+          "4"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 3,
+         "countEmoji": "⭐",
+         "options": [
+          "1",
+          "2",
+          "4",
+          "3"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 6,
+         "countEmoji": "🍎",
+         "options": [
+          "5",
+          "7",
+          "6",
+          "3"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 8,
+         "countEmoji": "⚽",
+         "options": [
+          "7",
+          "8",
+          "5",
+          "6"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "m1_06",
+       "title": "نعدّ الأشياء 2",
+       "icon": "🍎",
+       "introBig": "🍎🍎🍎",
+       "introText": "عُدّ الأشياء واحداً واحداً",
+       "introSpeak": "هيا نعدّ الأشياء معاً",
+       "exercises": [
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 1,
+         "countEmoji": "⭐",
+         "options": [
+          "1",
+          "4",
+          "3",
+          "2"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 7,
+         "countEmoji": "⭐",
+         "options": [
+          "8",
+          "7",
+          "6",
+          "5"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 2,
+         "countEmoji": "🐤",
+         "options": [
+          "4",
+          "1",
+          "2",
+          "5"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 8,
+         "countEmoji": "⭐",
+         "options": [
+          "5",
+          "7",
+          "6",
+          "8"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 7,
+         "countEmoji": "⚽",
+         "options": [
+          "4",
+          "8",
+          "7",
+          "6"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "count",
+         "prompt": "كم عددها؟",
+         "speak": "عُدّ معي. كم عددها؟",
+         "show": "",
+         "count": 8,
+         "countEmoji": "🐟",
+         "options": [
+          "7",
+          "10",
+          "8",
+          "9"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "m1_07",
+       "title": "الأعداد 11 - 15",
+       "icon": "🔢",
+       "introBig": "11  12  13  14  15",
+       "introText": "نكمل العدّ حتى 20",
+       "introSpeak": "هيا نكمل العد. 11. 12. 13. 14. 15",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما العدد الذي بعد 13؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "17",
+          "14",
+          "13",
+          "12"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما العدد الذي بعد 13؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "13",
+          "14",
+          "17",
+          "11"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "ما العدد الذي بعد 11؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "11",
+          "9",
+          "12",
+          "15"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "أين العدد 11؟",
+         "speak": "أين العدد 11؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "14",
+          "12",
+          "13",
+          "11"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين العدد 14؟",
+         "speak": "أين العدد 14؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "14",
+          "11",
+          "16",
+          "12"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "m1_08",
+       "title": "الأعداد 16 - 20",
+       "icon": "🔢",
+       "introBig": "16  17  18  19  20",
+       "introText": "نكمل العدّ حتى 20",
+       "introSpeak": "هيا نكمل العد. 16. 17. 18. 19. 20",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما العدد الذي بعد 15؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "16",
+          "14",
+          "15",
+          "13"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما العدد الذي بعد 17؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "18",
+          "16",
+          "19",
+          "17"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما العدد الذي بعد 18؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "16",
+          "19",
+          "20",
+          "18"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين العدد 18؟",
+         "speak": "أين العدد 18؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "18",
+          "20",
+          "17",
+          "16"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أين العدد 17؟",
+         "speak": "أين العدد 17؟",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "17",
+          "16",
+          "20",
+          "19"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "m1_09",
+       "title": "العدد الأكبر",
+       "icon": "⚖️",
+       "introBig": "5  ?  8",
+       "introText": "نعرف أي عدد هو الأكبر",
+       "introSpeak": "هيا نعرف العدد الأكبر",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أي عدد أكبر؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "15",
+          "9"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي عدد أكبر؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "16",
+          "7"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي عدد أكبر؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "18",
+          "14"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي عدد أكبر؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "18",
+          "6"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي عدد أكبر؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "2",
+          "10"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي عدد أكبر؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "17",
+          "6"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "m1_10",
+       "title": "العدد الأصغر",
+       "icon": "⚖️",
+       "introBig": "5  ?  8",
+       "introText": "نعرف أي عدد هو الأصغر",
+       "introSpeak": "هيا نعرف العدد الأصغر",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أي عدد أصغر؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "15",
+          "16"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي عدد أصغر؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "1",
+          "7"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي عدد أصغر؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "5",
+          "9"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي عدد أصغر؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "7",
+          "15"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أي عدد أصغر؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "16",
+          "8"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أي عدد أصغر؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "11",
+          "17"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "m1_11",
+       "title": "الأشكال 1",
+       "icon": "🔺",
+       "introBig": "⚪ 🔺 ⬛ 🔷",
+       "introText": "دائرة، مثلث، مربع، معيّن",
+       "introSpeak": "هذه دائرة. هذا مثلث. هذا مربع. هذا معيّن",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذا الشكل؟",
+         "speak": "",
+         "show": "⚪",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "دائرة",
+          "مثلث",
+          "معيّن",
+          "مربع"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذا الشكل؟",
+         "speak": "",
+         "show": "⬛",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "معيّن",
+          "دائرة",
+          "مربع",
+          "نجمة"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذا الشكل؟",
+         "speak": "",
+         "show": "⭐",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "نجمة",
+          "معيّن",
+          "دائرة",
+          "مثلث"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذا الشكل؟",
+         "speak": "",
+         "show": "🔺",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "مربع",
+          "دائرة",
+          "معيّن",
+          "مثلث"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "ما اسم هذا الشكل؟",
+         "speak": "",
+         "show": "🔷",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "مربع",
+          "معيّن",
+          "نجمة",
+          "دائرة"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "m1_12",
+       "title": "الأشكال 2",
+       "icon": "🔺",
+       "introBig": "⚪ 🔺 ⬛ 🔷",
+       "introText": "دائرة، مثلث، مربع، معيّن",
+       "introSpeak": "هذه دائرة. هذا مثلث. هذا مربع. هذا معيّن",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "أين الدائرة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "⭐",
+          "🔺",
+          "🔷",
+          "⚪"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين المعيّن؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "⚪",
+          "⭐",
+          "⬛",
+          "🔷"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "أين المربع؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🔺",
+          "⬛",
+          "⚪",
+          "⭐"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "أين المثلث؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🔺",
+          "⚪",
+          "🔷",
+          "⭐"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "أين النجمة؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "🔺",
+          "⭐",
+          "⚪",
+          "🔷"
+         ],
+         "answer": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "title": "المستوى الثاني: الجمع والطرح",
+     "lessons": [
+      {
+       "id": "m2_01",
+       "title": "الجمع حتى 10 (1)",
+       "icon": "➕",
+       "introBig": "⁦3 + 2 = 5⁩",
+       "introText": "الجمع يعني نضيف",
+       "introSpeak": "ثلاثة زائد اثنين يساوي خمسة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "كم المجموع؟",
+         "speak": "كم المجموع؟",
+         "show": "⁦⭐ + ⭐⭐⭐⭐⭐⭐⭐⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "6",
+          "5",
+          "8",
+          "7"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم المجموع؟",
+         "speak": "كم المجموع؟",
+         "show": "⁦⭐ + ⭐⭐⭐⭐⭐⭐⭐⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "6",
+          "5",
+          "7",
+          "8"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كم المجموع؟",
+         "speak": "كم المجموع؟",
+         "show": "⁦🌸🌸🌸🌸🌸🌸🌸🌸 + 🌸🌸⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "9",
+          "7",
+          "8",
+          "10"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 2 + 3؟",
+         "speak": "كم يساوي 2 زائد 3؟",
+         "show": "⁦2 + 3 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "7",
+          "5",
+          "2",
+          "4"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 4 + 5؟",
+         "speak": "كم يساوي 4 زائد 5؟",
+         "show": "⁦4 + 5 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "8",
+          "7",
+          "9",
+          "6"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 8 + 2؟",
+         "speak": "كم يساوي 8 زائد 2؟",
+         "show": "⁦8 + 2 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "10",
+          "8",
+          "9",
+          "7"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "m2_02",
+       "title": "الجمع حتى 10 (2)",
+       "icon": "➕",
+       "introBig": "⁦3 + 2 = 5⁩",
+       "introText": "الجمع يعني نضيف",
+       "introSpeak": "ثلاثة زائد اثنين يساوي خمسة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 3 + 1؟",
+         "speak": "كم يساوي 3 زائد 1؟",
+         "show": "⁦3 + 1 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "4",
+          "6",
+          "3",
+          "7"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 8 + 1؟",
+         "speak": "كم يساوي 8 زائد 1؟",
+         "show": "⁦8 + 1 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "9",
+          "8",
+          "10",
+          "7"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 4 + 4؟",
+         "speak": "كم يساوي 4 زائد 4؟",
+         "show": "⁦4 + 4 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "7",
+          "8",
+          "6",
+          "10"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 2 + 3؟",
+         "speak": "كم يساوي 2 زائد 3؟",
+         "show": "⁦2 + 3 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "4",
+          "6",
+          "5",
+          "3"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 4 + 1؟",
+         "speak": "كم يساوي 4 زائد 1؟",
+         "show": "⁦4 + 1 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "2",
+          "5",
+          "4",
+          "3"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 2 + 8؟",
+         "speak": "كم يساوي 2 زائد 8؟",
+         "show": "⁦2 + 8 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "7",
+          "8",
+          "10",
+          "9"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "m2_03",
+       "title": "الجمع حتى 10 (3)",
+       "icon": "➕",
+       "introBig": "⁦3 + 2 = 5⁩",
+       "introText": "الجمع يعني نضيف",
+       "introSpeak": "ثلاثة زائد اثنين يساوي خمسة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 5 + 1؟",
+         "speak": "كم يساوي 5 زائد 1؟",
+         "show": "⁦5 + 1 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "6",
+          "7",
+          "9",
+          "4"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 7 + 2؟",
+         "speak": "كم يساوي 7 زائد 2؟",
+         "show": "⁦7 + 2 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "7",
+          "6",
+          "8",
+          "9"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 2 + 7؟",
+         "speak": "كم يساوي 2 زائد 7؟",
+         "show": "⁦2 + 7 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "9",
+          "10",
+          "7",
+          "6"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 1 + 1؟",
+         "speak": "كم يساوي 1 زائد 1؟",
+         "show": "⁦1 + 1 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "4",
+          "2",
+          "0",
+          "5"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 9 + 1؟",
+         "speak": "كم يساوي 9 زائد 1؟",
+         "show": "⁦9 + 1 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "9",
+          "10",
+          "7",
+          "8"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 6 + 2؟",
+         "speak": "كم يساوي 6 زائد 2؟",
+         "show": "⁦6 + 2 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "6",
+          "10",
+          "8",
+          "5"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "m2_04",
+       "title": "الطرح حتى 10 (1)",
+       "icon": "➖",
+       "introBig": "⁦5 - 2 = 3⁩",
+       "introText": "الطرح يعني نأخذ",
+       "introSpeak": "خمسة ناقص اثنين يساوي ثلاثة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "معك 4، أخذنا 1. كم بقي؟",
+         "speak": "",
+         "show": "⁦4 - 1 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "3",
+          "2",
+          "6",
+          "5"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "معك 6، أخذنا 4. كم بقي؟",
+         "speak": "",
+         "show": "⁦6 - 4 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "1",
+          "2",
+          "0",
+          "3"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "معك 8، أخذنا 1. كم بقي؟",
+         "speak": "",
+         "show": "⁦8 - 1 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 10 - 2؟",
+         "speak": "كم يساوي 10 ناقص 2؟",
+         "show": "⁦10 - 2 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "10",
+          "6",
+          "8",
+          "5"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 8 - 4؟",
+         "speak": "كم يساوي 8 ناقص 4؟",
+         "show": "⁦8 - 4 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "2",
+          "6",
+          "4",
+          "1"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 7 - 6؟",
+         "speak": "كم يساوي 7 ناقص 6؟",
+         "show": "⁦7 - 6 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "2",
+          "3",
+          "4",
+          "1"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "m2_05",
+       "title": "الطرح حتى 10 (2)",
+       "icon": "➖",
+       "introBig": "⁦5 - 2 = 3⁩",
+       "introText": "الطرح يعني نأخذ",
+       "introSpeak": "خمسة ناقص اثنين يساوي ثلاثة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 10 - 8؟",
+         "speak": "كم يساوي 10 ناقص 8؟",
+         "show": "⁦10 - 8 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "2",
+          "3",
+          "4",
+          "1"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 2 - 1؟",
+         "speak": "كم يساوي 2 ناقص 1؟",
+         "show": "⁦2 - 1 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "4",
+          "1",
+          "0",
+          "3"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 6 - 1؟",
+         "speak": "كم يساوي 6 ناقص 1؟",
+         "show": "⁦6 - 1 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "8",
+          "2",
+          "5",
+          "7"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 7 - 1؟",
+         "speak": "كم يساوي 7 ناقص 1؟",
+         "show": "⁦7 - 1 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "3",
+          "8",
+          "6",
+          "7"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 4 - 3؟",
+         "speak": "كم يساوي 4 ناقص 3؟",
+         "show": "⁦4 - 3 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "1",
+          "3",
+          "4",
+          "0"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 7 - 4؟",
+         "speak": "كم يساوي 7 ناقص 4؟",
+         "show": "⁦7 - 4 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "2",
+          "0",
+          "6",
+          "3"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "m2_06",
+       "title": "الطرح حتى 10 (3)",
+       "icon": "➖",
+       "introBig": "⁦5 - 2 = 3⁩",
+       "introText": "الطرح يعني نأخذ",
+       "introSpeak": "خمسة ناقص اثنين يساوي ثلاثة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 7 - 2؟",
+         "speak": "كم يساوي 7 ناقص 2؟",
+         "show": "⁦7 - 2 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "5",
+          "7",
+          "4",
+          "3"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 6 - 5؟",
+         "speak": "كم يساوي 6 ناقص 5؟",
+         "show": "⁦6 - 5 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "1",
+          "2",
+          "4",
+          "0"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 3 - 2؟",
+         "speak": "كم يساوي 3 ناقص 2؟",
+         "show": "⁦3 - 2 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "3",
+          "1",
+          "0",
+          "4"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 4 - 2؟",
+         "speak": "كم يساوي 4 ناقص 2؟",
+         "show": "⁦4 - 2 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "5",
+          "0",
+          "1",
+          "2"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 3 - 1؟",
+         "speak": "كم يساوي 3 ناقص 1؟",
+         "show": "⁦3 - 1 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "4",
+          "5",
+          "3",
+          "2"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 2 - 1؟",
+         "speak": "كم يساوي 2 ناقص 1؟",
+         "show": "⁦2 - 1 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "0",
+          "3",
+          "4",
+          "1"
+         ],
+         "answer": 3
+        }
+       ]
+      },
+      {
+       "id": "m2_07",
+       "title": "الجمع حتى 20 (1)",
+       "icon": "➕",
+       "introBig": "⁦3 + 2 = 5⁩",
+       "introText": "الجمع يعني نضيف",
+       "introSpeak": "ثلاثة زائد اثنين يساوي خمسة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 16 + 3؟",
+         "speak": "كم يساوي 16 زائد 3؟",
+         "show": "⁦16 + 3 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "20",
+          "17",
+          "19",
+          "16"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 8 + 11؟",
+         "speak": "كم يساوي 8 زائد 11؟",
+         "show": "⁦8 + 11 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "19",
+          "18",
+          "16",
+          "20"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 10 + 8؟",
+         "speak": "كم يساوي 10 زائد 8؟",
+         "show": "⁦10 + 8 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "17",
+          "18",
+          "16",
+          "15"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 14 + 6؟",
+         "speak": "كم يساوي 14 زائد 6؟",
+         "show": "⁦14 + 6 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "18",
+          "19",
+          "17",
+          "20"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 8 + 11؟",
+         "speak": "كم يساوي 8 زائد 11؟",
+         "show": "⁦8 + 11 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "16",
+          "18",
+          "17",
+          "19"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 6 + 8؟",
+         "speak": "كم يساوي 6 زائد 8؟",
+         "show": "⁦6 + 8 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "15",
+          "14",
+          "16",
+          "17"
+         ],
+         "answer": 1
+        }
+       ]
+      },
+      {
+       "id": "m2_08",
+       "title": "الجمع حتى 20 (2)",
+       "icon": "➕",
+       "introBig": "⁦3 + 2 = 5⁩",
+       "introText": "الجمع يعني نضيف",
+       "introSpeak": "ثلاثة زائد اثنين يساوي خمسة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 17 + 2؟",
+         "speak": "كم يساوي 17 زائد 2؟",
+         "show": "⁦17 + 2 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "19",
+          "16",
+          "18",
+          "20"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 14 + 1؟",
+         "speak": "كم يساوي 14 زائد 1؟",
+         "show": "⁦14 + 1 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "16",
+          "17",
+          "14",
+          "15"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 13 + 7؟",
+         "speak": "كم يساوي 13 زائد 7؟",
+         "show": "⁦13 + 7 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "19",
+          "17",
+          "20",
+          "18"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 13 + 7؟",
+         "speak": "كم يساوي 13 زائد 7؟",
+         "show": "⁦13 + 7 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "20",
+          "18",
+          "19",
+          "17"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 15 + 4؟",
+         "speak": "كم يساوي 15 زائد 4؟",
+         "show": "⁦15 + 4 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "20",
+          "17",
+          "18",
+          "19"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 15 + 3؟",
+         "speak": "كم يساوي 15 زائد 3؟",
+         "show": "⁦15 + 3 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "18",
+          "17",
+          "16",
+          "15"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "m2_09",
+       "title": "الطرح حتى 20 (1)",
+       "icon": "➖",
+       "introBig": "⁦5 - 2 = 3⁩",
+       "introText": "الطرح يعني نأخذ",
+       "introSpeak": "خمسة ناقص اثنين يساوي ثلاثة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 17 - 11؟",
+         "speak": "كم يساوي 17 ناقص 11؟",
+         "show": "⁦17 - 11 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "6",
+          "3",
+          "4",
+          "9"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 15 - 13؟",
+         "speak": "كم يساوي 15 ناقص 13؟",
+         "show": "⁦15 - 13 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "3",
+          "1",
+          "2",
+          "0"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 16 - 8؟",
+         "speak": "كم يساوي 16 ناقص 8؟",
+         "show": "⁦16 - 8 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "8",
+          "9",
+          "10",
+          "7"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 14 - 2؟",
+         "speak": "كم يساوي 14 ناقص 2؟",
+         "show": "⁦14 - 2 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "15",
+          "11",
+          "14",
+          "12"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 12 - 7؟",
+         "speak": "كم يساوي 12 ناقص 7؟",
+         "show": "⁦12 - 7 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "5",
+          "7",
+          "8",
+          "3"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 20 - 9؟",
+         "speak": "كم يساوي 20 ناقص 9؟",
+         "show": "⁦20 - 9 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "11",
+          "13",
+          "12",
+          "14"
+         ],
+         "answer": 0
+        }
+       ]
+      },
+      {
+       "id": "m2_10",
+       "title": "الطرح حتى 20 (2)",
+       "icon": "➖",
+       "introBig": "⁦5 - 2 = 3⁩",
+       "introText": "الطرح يعني نأخذ",
+       "introSpeak": "خمسة ناقص اثنين يساوي ثلاثة",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 11 - 6؟",
+         "speak": "كم يساوي 11 ناقص 6؟",
+         "show": "⁦11 - 6 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "5",
+          "4",
+          "3",
+          "6"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 11 - 10؟",
+         "speak": "كم يساوي 11 ناقص 10؟",
+         "show": "⁦11 - 10 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "2",
+          "1",
+          "0",
+          "4"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 16 - 7؟",
+         "speak": "كم يساوي 16 ناقص 7؟",
+         "show": "⁦16 - 7 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "9",
+          "6",
+          "10",
+          "7"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 17 - 7؟",
+         "speak": "كم يساوي 17 ناقص 7؟",
+         "show": "⁦17 - 7 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "13",
+          "11",
+          "10",
+          "7"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 16 - 6؟",
+         "speak": "كم يساوي 16 ناقص 6؟",
+         "show": "⁦16 - 6 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "12",
+          "7",
+          "10",
+          "8"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 17 - 16؟",
+         "speak": "كم يساوي 17 ناقص 16؟",
+         "show": "⁦17 - 16 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "4",
+          "2",
+          "1",
+          "3"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "m2_11",
+       "title": "الآحاد والعشرات 1",
+       "icon": "🔟",
+       "introBig": "34 = 30 + 4",
+       "introText": "العدد 34 فيه 3 عشرات و4 آحاد",
+       "introSpeak": "أربعة وثلاثون فيها ثلاث عشرات وأربعة آحاد",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "العدد الذي فيه 6 عشرات و2 آحاد هو؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "65",
+          "72",
+          "62",
+          "26"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "العدد الذي فيه 5 عشرات و3 آحاد هو؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "53",
+          "56",
+          "63",
+          "35"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "العدد الذي فيه 2 عشرات و4 آحاد هو؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "24",
+          "34",
+          "42",
+          "27"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "العدد الذي فيه 7 عشرات و0 آحاد هو؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "80",
+          "73",
+          "70",
+          "7"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "العدد الذي فيه 3 عشرات و1 آحاد هو؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "34",
+          "31",
+          "41",
+          "13"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "العدد الذي فيه 7 عشرات و8 آحاد هو؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "87",
+          "88",
+          "78",
+          "71"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "m2_12",
+       "title": "الآحاد والعشرات 2",
+       "icon": "🔟",
+       "introBig": "34 = 30 + 4",
+       "introText": "العدد 34 فيه 3 عشرات و4 آحاد",
+       "introSpeak": "أربعة وثلاثون فيها ثلاث عشرات وأربعة آحاد",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "العدد الذي فيه 3 عشرات و8 آحاد هو؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "48",
+          "83",
+          "31",
+          "38"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "العدد الذي فيه 5 عشرات و3 آحاد هو؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "35",
+          "56",
+          "53",
+          "63"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "العدد الذي فيه 5 عشرات و1 آحاد هو؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "51",
+          "54",
+          "15",
+          "61"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "العدد الذي فيه 5 عشرات و0 آحاد هو؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "50",
+          "5",
+          "60",
+          "53"
+         ],
+         "answer": 0
+        },
+        {
+         "type": "choice",
+         "prompt": "العدد الذي فيه 4 عشرات و2 آحاد هو؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "52",
+          "42",
+          "45",
+          "24"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "العدد الذي فيه 8 عشرات و8 آحاد هو؟",
+         "speak": "",
+         "show": "",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "81",
+          "89",
+          "88",
+          "98"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "m2_13",
+       "title": "جمع العشرات حتى 100",
+       "icon": "💯",
+       "introBig": "⁦30 + 20 = 50⁩",
+       "introText": "نجمع ونطرح العشرات",
+       "introSpeak": "هيا نحسب بالعشرات",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 30 + 20؟",
+         "speak": "كم يساوي 30 زائد 20؟",
+         "show": "⁦30 + 20 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "10",
+          "50",
+          "0",
+          "40"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 60 + 40؟",
+         "speak": "كم يساوي 60 زائد 40؟",
+         "show": "⁦60 + 40 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "30",
+          "60",
+          "100",
+          "50"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 40 + 30؟",
+         "speak": "كم يساوي 40 زائد 30؟",
+         "show": "⁦40 + 30 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "10",
+          "80",
+          "70",
+          "0"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 10 + 20؟",
+         "speak": "كم يساوي 10 زائد 20؟",
+         "show": "⁦10 + 20 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "10",
+          "100",
+          "30",
+          "0"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 80 + 10؟",
+         "speak": "كم يساوي 80 زائد 10؟",
+         "show": "⁦80 + 10 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "30",
+          "90",
+          "20",
+          "10"
+         ],
+         "answer": 1
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 40 + 40؟",
+         "speak": "كم يساوي 40 زائد 40؟",
+         "show": "⁦40 + 40 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "40",
+          "50",
+          "80",
+          "0"
+         ],
+         "answer": 2
+        }
+       ]
+      },
+      {
+       "id": "m2_14",
+       "title": "طرح العشرات حتى 100",
+       "icon": "💯",
+       "introBig": "⁦70 - 40 = 30⁩",
+       "introText": "نجمع ونطرح العشرات",
+       "introSpeak": "هيا نحسب بالعشرات",
+       "exercises": [
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 30 - 20؟",
+         "speak": "كم يساوي 30 ناقص 20؟",
+         "show": "⁦30 - 20 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "0",
+          "80",
+          "20",
+          "10"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 60 - 30؟",
+         "speak": "كم يساوي 60 ناقص 30؟",
+         "show": "⁦60 - 30 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "100",
+          "60",
+          "30",
+          "0"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 100 - 20؟",
+         "speak": "كم يساوي 100 ناقص 20؟",
+         "show": "⁦100 - 20 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "70",
+          "10",
+          "80",
+          "90"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 80 - 30؟",
+         "speak": "كم يساوي 80 ناقص 30؟",
+         "show": "⁦80 - 30 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "40",
+          "100",
+          "30",
+          "50"
+         ],
+         "answer": 3
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 50 - 40؟",
+         "speak": "كم يساوي 50 ناقص 40؟",
+         "show": "⁦50 - 40 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "70",
+          "60",
+          "10",
+          "100"
+         ],
+         "answer": 2
+        },
+        {
+         "type": "choice",
+         "prompt": "كم يساوي 70 - 50؟",
+         "speak": "كم يساوي 70 ناقص 50؟",
+         "show": "⁦70 - 50 = ?⁩",
+         "count": 0,
+         "countEmoji": "",
+         "options": [
+          "20",
+          "10",
+          "50",
+          "100"
+         ],
+         "answer": 0
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "placement": {
+  "ar": [
+   {
+    "level": 1,
+    "exercise": {
+     "type": "choice",
+     "prompt": "أين حرف الميم؟",
+     "speak": "",
+     "show": "",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "ا",
+      "و",
+      "م",
+      "ه"
+     ],
+     "answer": 2
+    }
+   },
+   {
+    "level": 1,
+    "exercise": {
+     "type": "choice",
+     "prompt": "أين حرف الباء؟",
+     "speak": "",
+     "show": "",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "ي",
+      "ن",
+      "ب",
+      "ث"
+     ],
+     "answer": 2
+    }
+   },
+   {
+    "level": 1,
+    "exercise": {
+     "type": "choice",
+     "prompt": "أين حرف السين؟",
+     "speak": "",
+     "show": "",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "غ",
+      "س",
+      "ش",
+      "ل"
+     ],
+     "answer": 1
+    }
+   },
+   {
+    "level": 2,
+    "exercise": {
+     "type": "choice",
+     "prompt": "ما اسم هذه الصورة؟",
+     "speak": "",
+     "show": "🐘",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "نحلة",
+      "فيل",
+      "شمس",
+      "قمر"
+     ],
+     "answer": 1
+    }
+   },
+   {
+    "level": 2,
+    "exercise": {
+     "type": "choice",
+     "prompt": "ما الحرف الناقص؟",
+     "speak": "ما الحرف الناقص في كلمة قمر؟",
+     "show": "🌙  ؟مر",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "ع",
+      "ق",
+      "ف",
+      "غ"
+     ],
+     "answer": 1
+    }
+   },
+   {
+    "level": 2,
+    "exercise": {
+     "type": "choice",
+     "prompt": "أين الحرف الذي عليه ضمة؟",
+     "speak": "",
+     "show": "",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "بْ",
+      "بِ",
+      "بَ",
+      "بُ"
+     ],
+     "answer": 3
+    }
+   }
+  ],
+  "math": [
+   {
+    "level": 1,
+    "exercise": {
+     "type": "count",
+     "prompt": "كم عددها؟",
+     "speak": "عُدّ معي. كم عددها؟",
+     "show": "",
+     "count": 3,
+     "countEmoji": "⚽",
+     "options": [
+      "1",
+      "4",
+      "3",
+      "6"
+     ],
+     "answer": 2
+    }
+   },
+   {
+    "level": 1,
+    "exercise": {
+     "type": "count",
+     "prompt": "كم عددها؟",
+     "speak": "عُدّ معي. كم عددها؟",
+     "show": "",
+     "count": 5,
+     "countEmoji": "⚽",
+     "options": [
+      "8",
+      "7",
+      "2",
+      "5"
+     ],
+     "answer": 3
+    }
+   },
+   {
+    "level": 1,
+    "exercise": {
+     "type": "count",
+     "prompt": "كم عددها؟",
+     "speak": "عُدّ معي. كم عددها؟",
+     "show": "",
+     "count": 7,
+     "countEmoji": "🍇",
+     "options": [
+      "6",
+      "7",
+      "5",
+      "8"
+     ],
+     "answer": 1
+    }
+   },
+   {
+    "level": 2,
+    "exercise": {
+     "type": "choice",
+     "prompt": "كم يساوي 4 + 3؟",
+     "speak": "كم يساوي 4 زائد 3؟",
+     "show": "⁦4 + 3 = ?⁩",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "8",
+      "5",
+      "10",
+      "7"
+     ],
+     "answer": 3
+    }
+   },
+   {
+    "level": 2,
+    "exercise": {
+     "type": "choice",
+     "prompt": "كم يساوي 9 - 5؟",
+     "speak": "كم يساوي 9 ناقص 5؟",
+     "show": "⁦9 - 5 = ?⁩",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "2",
+      "4",
+      "1",
+      "6"
+     ],
+     "answer": 1
+    }
+   },
+   {
+    "level": 2,
+    "exercise": {
+     "type": "choice",
+     "prompt": "كم يساوي 12 + 5؟",
+     "speak": "كم يساوي 12 زائد 5؟",
+     "show": "⁦12 + 5 = ?⁩",
+     "count": 0,
+     "countEmoji": "",
+     "options": [
+      "18",
+      "14",
+      "17",
+      "15"
+     ],
+     "answer": 2
+    }
+   }
+  ]
+ },
+ "stories": [
+  {
+   "title": "الزيتونة الصغيرة",
+   "icon": "🌱",
+   "pages": [
+    "كانت هناك بذرة زيتون صغيرة، نائمة تحت التراب.",
+    "جاء المطر، فشربت البذرة الماء، وقالت: شكراً يا مطر.",
+    "ثم جاءت الشمس، فمدّت البذرة ورقة خضراء صغيرة.",
+    "كل يوم كانت تكبر قليلاً… قليلاً فقط، لكنها لم تتوقف.",
+    "وصارت شجرة زيتون جميلة. وأنت أيضاً تكبر وتتعلّم كل يوم قليلاً 🌿"
+   ]
+  },
+  {
+   "title": "العصفور ونجمة الليل",
+   "icon": "🐦",
+   "pages": [
+    "في الليل، لم يستطع العصفور الصغير أن ينام.",
+    "نظر إلى السماء، فرأى نجمة تلمع وتبتسم له.",
+    "قالت النجمة: أغمض عينيك، وخذ نفساً عميقاً… ثم أخرجه ببطء.",
+    "فعل العصفور ذلك ثلاث مرات، فشعر بالهدوء.",
+    "ونام العصفور، وفي الصباح غنّى أجمل أغنية ☀️"
+   ]
+  },
+  {
+   "title": "سمكة البحر الملوّنة",
+   "icon": "🐠",
+   "pages": [
+    "في البحر الأزرق، عاشت سمكة صغيرة ملوّنة.",
+    "رأت سمكة أخرى وحيدة، فسبحت إليها وقالت: هل نلعب معاً؟",
+    "لعبت السمكتان، وضحكتا، وسبحتا بين الأمواج.",
+    "وعرفت السمكة الصغيرة أن الصديق يجعل اليوم أجمل.",
+    "هل عندك صديق؟ قل له كلمة حلوة اليوم 💛"
+   ]
+  },
+  {
+   "title": "شمس الصباح",
+   "icon": "☀️",
+   "pages": [
+    "استيقظت الشمس، ومدّت أشعتها الدافئة.",
+    "قالت للأطفال: صباح الخير! اليوم يوم جديد.",
+    "اليوم نتعلّم حرفاً جديداً، أو عدداً جديداً.",
+    "وإذا أخطأنا، نحاول مرة أخرى، فالمحاولة شجاعة.",
+    "ابتسمت الشمس وقالت: أنا فخورة بك 🌟"
+   ]
+  }
+ ]
+}
