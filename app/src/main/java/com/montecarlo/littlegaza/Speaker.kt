@@ -76,7 +76,7 @@ class Speaker(ctx: Context) : TextToSpeech.OnInitListener {
 
     companion object {
         const val GOOGLE_TTS = "com.google.android.tts"
-        private val HAMZA_END = Regex("([ءأؤئ])(?=[\\s.,،؛؟!:]|$)")
+        private val WORD_END = Regex("([بتثجحخدذرزسشصضطظعغفقكلمنهءأؤئ])(?=[\\s.,،؛؟!:]|$)")
 
         fun isInstalled(ctx: Context, pkg: String): Boolean = try {
             ctx.packageManager.getPackageInfo(pkg, 0)
@@ -94,9 +94,9 @@ class Speaker(ctx: Context) : TextToSpeech.OnInitListener {
                 if (Character.getType(c) == Character.OTHER_SYMBOL.toInt()) continue
                 sb.append(c)
             }
-            // A bare hamza at the end of a word gets a pausal sukun ("البَاءْ"), otherwise
-            // the engine adds a vowel and says "البائي".
-            return HAMZA_END.replace(sb.toString().replace("…", "، "), "$1ْ").trim()
+            // A bare consonant at the end of a word gets a pausal sukun ("البَاءْ", "أَحْسَنْتْ"),
+            // otherwise the engine adds a vowel and says "البائي" / "أحسنتو".
+            return WORD_END.replace(sb.toString().replace("…", "، "), "$1ْ").trim()
         }
 
         /** Opens the phone's text-to-speech settings. */
