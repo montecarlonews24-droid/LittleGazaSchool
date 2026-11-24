@@ -126,7 +126,7 @@ def main():
                     done = True
                     break
                 except urllib.error.HTTPError as e:
-                    msg = e.read().decode("utf-8", "ignore")[:300]
+                    msg = e.read().decode("utf-8", "ignore")[:1500]
                     last_err = (e.code, msg)
                     if e.code == 429:
                         break
@@ -137,15 +137,27 @@ def main():
                 break
             code = last_err[0] if last_err else 0
             if code == 429:
-                print(f"Key #{keys.index(key) + 1} hit its limit")
-                exhausted.add(key)
-                ki += 1
+                msg = last_err[1]
+                if "PerDay" in msg or "per day" in msg.lower() or "daily" in msg.lower():
+                    print(f"Key #{keys.index(key) + 1} hit its DAILY limit: {msg[:200]}")
+                    exhausted.add(key)
+                    ki += 1
+                else:
+                    # Per-minute limit: try the next key, and if all were just used, wait for the window.
+                    ki += 1
+                    m = re.search(r'retryDelay"\s*:\s*"(\d+)', msg)
+                    wait = int(m.group(1)) + 1 if m else 20
+                    if ki % len(keys) == 0:
+                        print(f"Per-minute limit on all keys; waiting {wait}s ({made} made so far)")
+                        time.sleep(wait)
             elif code in (400, 401, 403) and route is None:
                 print(f"Key #{keys.index(key) + 1} not accepted: {last_err}")
                 exhausted.add(key)
                 ki += 1
             else:
                 print(f"Skipping one sentence after error: {last_err}")
+                break
+            if time.time() - start > BUDGET_SEC:
                 break
         if len(exhausted) >= len(keys):
             print("All keys are at their limit for now; will continue next run.")
