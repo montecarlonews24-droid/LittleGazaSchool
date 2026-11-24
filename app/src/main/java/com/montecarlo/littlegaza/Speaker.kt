@@ -2,26 +2,35 @@ package com.montecarlo.littlegaza
 
 import android.content.Context
 import android.content.Intent
+import android.media.MediaPlayer
 import android.net.Uri
 import android.provider.Settings
 import android.speech.tts.TextToSpeech
+import java.security.MessageDigest
 import java.util.Locale
 
 /**
- * Arabic voice using the phone's text-to-speech.
- * - Prefers Google's engine (much better Arabic than some built-in engines).
- * - Picks an installed, offline Arabic voice explicitly, so it never reads Arabic with a foreign voice.
- * - Strips emoji before speaking, so the engine never reads emoji names aloud.
+ * Speaks Arabic for the children.
+ * 1. If a recorded clip exists for the exact sentence (assets/voice/<sha1>.ogg), it plays that — correct
+ *    pronunciation on every phone, fully offline.
+ * 2. Otherwise it falls back to the phone's text-to-speech (Google engine preferred, Arabic voice only).
  */
 class Speaker(ctx: Context) : TextToSpeech.OnInitListener {
     private var ready = false
     var arabicAvailable = false
         private set
-    var usingGoogle = false
-        private set
     private var pending: String? = null
     private val app = ctx.applicationContext
     val googleInstalled: Boolean = isInstalled(app, GOOGLE_TTS)
+    var phrases: Map<String, String> = emptyMap()
+
+    private val clips: Set<String> = try {
+        app.assets.list("voice")?.toSet() ?: emptySet()
+    } catch (e: Exception) {
+        emptySet()
+    }
+    val clipCount: Int get() = clips.size
+    private var player: MediaPlayer? = null
 
     // Declared last so the fields above are initialised before onInit can run.
     private val tts: TextToSpeech =
@@ -29,7 +38,6 @@ class Speaker(ctx: Context) : TextToSpeech.OnInitListener {
 
     override fun onInit(status: Int) {
         if (status != TextToSpeech.SUCCESS) return
-        usingGoogle = try { tts.defaultEngine == GOOGLE_TTS || googleInstalled } catch (e: Exception) { false }
         val r = tts.setLanguage(Locale.forLanguageTag("ar"))
         var ok = r != TextToSpeech.LANG_MISSING_DATA && r != TextToSpeech.LANG_NOT_SUPPORTED
         val best = try {
@@ -51,31 +59,78 @@ class Speaker(ctx: Context) : TextToSpeech.OnInitListener {
         arabicAvailable = ok && (current == null || current.locale.language == "ar")
         tts.setSpeechRate(0.85f)
         ready = true
-        pending?.let { speak(it) }
+        pending?.let { ttsSpeak(it) }
         pending = null
     }
 
+    /** Speaks one of the fixed phrases from content.json ("praise", "retry", …). */
+    fun say(key: String) {
+        phrases[key]?.let { speak(it) }
+    }
+
     fun speak(text: String) {
-        val clean = clean(text)
-        if (clean.isBlank()) return
+        if (text.isBlank()) return
+        stop()
+        val clip = clipName(text)
+        if (clip in clips && playClip(clip)) return
+        ttsSpeak(text)
+    }
+
+    private fun playClip(name: String): Boolean = try {
+        val afd = app.assets.openFd("voice/$name")
+        val mp = MediaPlayer()
+        mp.setDataSource(afd.fileDescriptor, afd.startOffset, afd.length)
+        afd.close()
+        mp.setOnCompletionListener {
+            it.release()
+            if (player === it) player = null
+        }
+        mp.prepare()
+        mp.start()
+        player = mp
+        true
+    } catch (e: Exception) {
+        false
+    }
+
+    private fun ttsSpeak(text: String) {
+        val c = clean(text)
+        if (c.isBlank()) return
         if (!ready) {
-            pending = clean
+            pending = text
             return
         }
-        if (arabicAvailable) tts.speak(clean, TextToSpeech.QUEUE_FLUSH, null, "lg")
+        if (arabicAvailable) tts.speak(c, TextToSpeech.QUEUE_FLUSH, null, "lg")
     }
 
     fun stop() {
         pending = null
+        player?.let {
+            try {
+                it.stop()
+            } catch (_: Exception) {
+            }
+            it.release()
+        }
+        player = null
         if (ready) tts.stop()
     }
 
     fun shutdown() {
+        stop()
         tts.shutdown()
     }
 
     companion object {
         const val GOOGLE_TTS = "com.google.android.tts"
+
+        /** Must match tools/gen_audio.py: first 16 hex chars of SHA-1 of the exact UTF-8 text. */
+        fun clipName(text: String): String {
+            val d = MessageDigest.getInstance("SHA-1").digest(text.toByteArray(Charsets.UTF_8))
+            val sb = StringBuilder()
+            for (b in d) sb.append(String.format("%02x", b.toInt() and 0xff))
+            return sb.substring(0, 16) + ".ogg"
+        }
 
         fun isInstalled(ctx: Context, pkg: String): Boolean = try {
             ctx.packageManager.getPackageInfo(pkg, 0)
@@ -84,7 +139,7 @@ class Speaker(ctx: Context) : TextToSpeech.OnInitListener {
             false
         }
 
-        /** Removes emoji, symbols and direction marks so only words are spoken. */
+        /** For the phone voice: no emoji/symbols, and no tashkeel (except on single letters like بَ). */
         fun clean(text: String): String {
             val sb = StringBuilder(text.length)
             for (c in text) {
@@ -93,16 +148,12 @@ class Speaker(ctx: Context) : TextToSpeech.OnInitListener {
                 if (Character.getType(c) == Character.OTHER_SYMBOL.toInt()) continue
                 sb.append(c)
             }
-            // No tashkeel: Google's Arabic voice reads plain text more naturally
-            // (with tashkeel it said "العربيتي" / "أحسنتو"). Single letters keep their
-            // harakah so the harakat lessons still say "بَ / بُ / بِ".
             return sb.toString().replace("…", "، ").split(" ").joinToString(" ") { w ->
-                val base = w.count { it in '\u0621'..'\u064A' }
-                if (base <= 1) w else w.filterNot { it in '\u064B'..'\u0652' || it == '\u0670' }
+                val base = w.count { it in 'ء'..'ي' }
+                if (base <= 1) w else w.filterNot { it in 'ً'..'ْ' || it == 'ٰ' }
             }.trim()
         }
 
-        /** Opens the phone's text-to-speech settings. */
         fun openTtsSettings(ctx: Context) {
             try {
                 ctx.startActivity(Intent("com.android.settings.TTS_SETTINGS"))
@@ -114,7 +165,6 @@ class Speaker(ctx: Context) : TextToSpeech.OnInitListener {
             }
         }
 
-        /** Opens Google's screen for downloading the Arabic voice (or its Play Store page if missing). */
         fun installArabicVoice(ctx: Context) {
             if (isInstalled(ctx, GOOGLE_TTS)) {
                 try {

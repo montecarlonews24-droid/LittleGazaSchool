@@ -59,7 +59,7 @@ fun ProfilesScreen(
     onShare: () -> Unit,
     onHelp: () -> Unit
 ) {
-    LaunchedEffect(Unit) { speaker.speak("أَهْلًا وَسَهْلًا فِي مَدْرَسَةِ غَزَّةَ الصَّغِيرَة. مَنْ يُرِيدُ أَنْ يَتَعَلَّمَ اليَوْم؟") }
+    LaunchedEffect(Unit) { speaker.say("welcome") }
     Column(
         scrollCol().verticalScroll(rememberScrollState()).padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
@@ -140,7 +140,7 @@ fun HomeScreen(
     onSubject: (String) -> Unit,
     onCalm: () -> Unit
 ) {
-    LaunchedEffect(p.id) { speaker.speak("أَهْلًا يَا ${p.name}") }
+    LaunchedEffect(p.id) { speaker.say("hello") }
     Column(scrollCol().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp)) {
         TopBar("${p.avatar} أهلاً يا ${p.name}", onBack)
         Gap(8)
@@ -182,7 +182,7 @@ fun CalmScreen(
     onFeelings: () -> Unit,
     onStory: (Int) -> Unit
 ) {
-    LaunchedEffect(Unit) { speaker.speak("رُكْنُ الهُدُوء. هُنَا نَرْتَاحُ قَلِيلًا") }
+    LaunchedEffect(Unit) { speaker.say("calm") }
     Column(scrollCol().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp)) {
         TopBar("ركن الهدوء 🌿", onBack)
         Gap(8)
@@ -204,14 +204,14 @@ fun BreathingScreen(speaker: Speaker, onBack: () -> Unit) {
     LaunchedEffect(Unit) {
         while (rounds < 5) {
             inhale = true
-            speaker.speak("خُذْ نَفَسًا عَمِيقًا")
+            speaker.say("breathe_in")
             delay(4000)
             inhale = false
-            speaker.speak("أَخْرِجِ النَّفَسَ بِبُطْء")
+            speaker.say("breathe_out")
             delay(4000)
             rounds++
         }
-        speaker.speak("أَحْسَنْت. أَنْتَ الآنَ أَهْدَأ")
+        speaker.say("breathe_done")
     }
     val scale by animateFloatAsState(if (inhale && rounds < 5) 1f else 0.55f, tween(4000), label = "breath")
     Column(Modifier.fillMaxSize().padding(horizontal = 16.dp), horizontalAlignment = Alignment.CenterHorizontally) {
@@ -249,7 +249,7 @@ private val FEELINGS = listOf(
 @Composable
 fun FeelingsScreen(speaker: Speaker, onBack: () -> Unit) {
     var picked by remember { mutableIntStateOf(-1) }
-    LaunchedEffect(Unit) { speaker.speak("كَيْفَ تَشْعُرُ اليَوْم؟") }
+    LaunchedEffect(Unit) { speaker.say("feelings") }
     Column(scrollCol().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp)) {
         TopBar("كيف تشعر اليوم؟ 💛", onBack)
         Gap(8)
@@ -257,7 +257,7 @@ fun FeelingsScreen(speaker: Speaker, onBack: () -> Unit) {
             val f = FEELINGS[i]
             Tile(f.first, f.second, Modifier.weight(1f), bg = if (picked == i) Color(0xFFFCEBCF) else Color.White) {
                 picked = i
-                speaker.speak(f.third)
+                speaker.say("feel_$i")
             }
         }
         if (picked >= 0) {
@@ -407,6 +407,12 @@ private fun ParentDashboard(
         Text("الصوت", fontSize = 20.sp, fontWeight = FontWeight.Bold, color = Orange)
         Gap(4)
         Text(
+            if (speaker.clipCount > 0) "🎙️ صوت مسجّل جاهز لـ ${speaker.clipCount} جملة. الباقي بصوت الهاتف."
+            else "🎙️ الصوت المسجّل غير متوفّر بعد، يُستخدم صوت الهاتف.",
+            fontSize = 15.sp, color = Ink
+        )
+        Gap(6)
+        Text(
             when {
                 !speaker.googleInstalled -> "🔇 للحصول على لفظ عربي صحيح، ثبّت تطبيق «Speech Services by Google» (مرة واحدة، يحتاج إنترنت)."
                 !speaker.arabicAvailable -> "🔇 الصوت العربي غير مثبّت. اضغط الزر بالأسفل ونزّل «العربية» (مرة واحدة، يحتاج إنترنت)."
@@ -426,7 +432,7 @@ private fun ParentDashboard(
         BigButton("⚙️ إعدادات الصوت في الهاتف", Modifier.fillMaxWidth(), color = Color(0xFF6B8F7E)) { Speaker.openTtsSettings(ctx) }
         Gap(8)
         BigButton("🔊 جرّب الصوت", Modifier.fillMaxWidth(), color = Green) {
-            speaker.speak("مَرْحَبًا! هَذَا حَرْفُ البَاءْ. بَطَّة")
+            speaker.say("test")
         }
         Text("إذا تغيّر الصوت بعد التنزيل، أغلق التطبيق وافتحه من جديد.", fontSize = 14.sp, color = Color.Gray)
         Gap(12)

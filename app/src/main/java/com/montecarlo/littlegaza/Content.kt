@@ -40,7 +40,8 @@ data class Story(val title: String, val icon: String, val pages: List<String>)
 class Content(
     val subjects: List<Subject>,
     val placement: Map<String, List<PlacementQ>>,
-    val stories: List<Story>
+    val stories: List<Story>,
+    val phrases: Map<String, String>
 ) {
     fun subject(id: String): Subject = subjects.first { it.id == id }
 
@@ -128,7 +129,16 @@ class Content(
                     stories.add(Story(so.optString("title"), so.optString("icon"), strings(so.optJSONArray("pages"))))
                 }
             }
-            return Content(subjects, placement, stories)
+            val phrases = mutableMapOf<String, String>()
+            val ph = root.optJSONObject("phrases")
+            if (ph != null) {
+                val keys = ph.keys()
+                while (keys.hasNext()) {
+                    val k = keys.next()
+                    phrases[k] = ph.getString(k)
+                }
+            }
+            return Content(subjects, placement, stories, phrases)
         }
     }
 }

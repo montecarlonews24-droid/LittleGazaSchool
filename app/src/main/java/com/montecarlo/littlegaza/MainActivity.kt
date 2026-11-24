@@ -14,6 +14,7 @@ class MainActivity : ComponentActivity() {
         val content = Content.load(this)
         val store = Store(this)
         speaker = Speaker(this)
+        speaker.phrases = content.phrases
         setContent { LittleGazaApp(content, store, speaker) }
     }
 
