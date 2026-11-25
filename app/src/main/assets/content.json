@@ -5152,7 +5152,7 @@
        "id": "m2_01",
        "title": "الجمع حتى 10 (1)",
        "icon": "➕",
-       "introBig": "⁦3 + 2 = 5⁩",
+       "introBig": "⁧3 + 2 = 5⁩",
        "introText": "الجمع يعني نضيف",
        "introSpeak": "ثَلَاثَة زَائِد اثْنَيْن يُسَاوِي خَمْسَة",
        "exercises": [
@@ -5160,7 +5160,7 @@
          "type": "choice",
          "prompt": "كم المجموع؟",
          "speak": "كَمِ المَجْمُوع؟",
-         "show": "⁦⭐ + ⭐⭐⭐⭐⭐⭐⭐⁩",
+         "show": "⁧⭐ + ⭐⭐⭐⭐⭐⭐⭐⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5175,7 +5175,7 @@
          "type": "choice",
          "prompt": "كم المجموع؟",
          "speak": "كَمِ المَجْمُوع؟",
-         "show": "⁦⭐ + ⭐⭐⭐⭐⭐⭐⭐⁩",
+         "show": "⁧⭐ + ⭐⭐⭐⭐⭐⭐⭐⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5190,7 +5190,7 @@
          "type": "choice",
          "prompt": "كم المجموع؟",
          "speak": "كَمِ المَجْمُوع؟",
-         "show": "⁦🌸🌸🌸🌸🌸🌸🌸🌸 + 🌸🌸⁩",
+         "show": "⁧🌸🌸🌸🌸🌸🌸🌸🌸 + 🌸🌸⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5205,7 +5205,7 @@
          "type": "choice",
          "prompt": "كم يساوي 2 + 3؟",
          "speak": "كَمْ يُسَاوِي 2 زَائِد 3؟",
-         "show": "⁦2 + 3 = ?⁩",
+         "show": "⁧2 + 3 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5220,7 +5220,7 @@
          "type": "choice",
          "prompt": "كم يساوي 4 + 5؟",
          "speak": "كَمْ يُسَاوِي 4 زَائِد 5؟",
-         "show": "⁦4 + 5 = ?⁩",
+         "show": "⁧4 + 5 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5235,7 +5235,7 @@
          "type": "choice",
          "prompt": "كم يساوي 8 + 2؟",
          "speak": "كَمْ يُسَاوِي 8 زَائِد 2؟",
-         "show": "⁦8 + 2 = ?⁩",
+         "show": "⁧8 + 2 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5252,7 +5252,7 @@
        "id": "m2_02",
        "title": "الجمع حتى 10 (2)",
        "icon": "➕",
-       "introBig": "⁦3 + 2 = 5⁩",
+       "introBig": "⁧3 + 2 = 5⁩",
        "introText": "الجمع يعني نضيف",
        "introSpeak": "ثَلَاثَة زَائِد اثْنَيْن يُسَاوِي خَمْسَة",
        "exercises": [
@@ -5260,7 +5260,7 @@
          "type": "choice",
          "prompt": "كم يساوي 3 + 1؟",
          "speak": "كَمْ يُسَاوِي 3 زَائِد 1؟",
-         "show": "⁦3 + 1 = ?⁩",
+         "show": "⁧3 + 1 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5275,7 +5275,7 @@
          "type": "choice",
          "prompt": "كم يساوي 8 + 1؟",
          "speak": "كَمْ يُسَاوِي 8 زَائِد 1؟",
-         "show": "⁦8 + 1 = ?⁩",
+         "show": "⁧8 + 1 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5290,7 +5290,7 @@
          "type": "choice",
          "prompt": "كم يساوي 4 + 4؟",
          "speak": "كَمْ يُسَاوِي 4 زَائِد 4؟",
-         "show": "⁦4 + 4 = ?⁩",
+         "show": "⁧4 + 4 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5305,7 +5305,7 @@
          "type": "choice",
          "prompt": "كم يساوي 2 + 3؟",
          "speak": "كَمْ يُسَاوِي 2 زَائِد 3؟",
-         "show": "⁦2 + 3 = ?⁩",
+         "show": "⁧2 + 3 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5320,7 +5320,7 @@
          "type": "choice",
          "prompt": "كم يساوي 4 + 1؟",
          "speak": "كَمْ يُسَاوِي 4 زَائِد 1؟",
-         "show": "⁦4 + 1 = ?⁩",
+         "show": "⁧4 + 1 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5335,7 +5335,7 @@
          "type": "choice",
          "prompt": "كم يساوي 2 + 8؟",
          "speak": "كَمْ يُسَاوِي 2 زَائِد 8؟",
-         "show": "⁦2 + 8 = ?⁩",
+         "show": "⁧2 + 8 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5352,7 +5352,7 @@
        "id": "m2_03",
        "title": "الجمع حتى 10 (3)",
        "icon": "➕",
-       "introBig": "⁦3 + 2 = 5⁩",
+       "introBig": "⁧3 + 2 = 5⁩",
        "introText": "الجمع يعني نضيف",
        "introSpeak": "ثَلَاثَة زَائِد اثْنَيْن يُسَاوِي خَمْسَة",
        "exercises": [
@@ -5360,7 +5360,7 @@
          "type": "choice",
          "prompt": "كم يساوي 5 + 1؟",
          "speak": "كَمْ يُسَاوِي 5 زَائِد 1؟",
-         "show": "⁦5 + 1 = ?⁩",
+         "show": "⁧5 + 1 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5375,7 +5375,7 @@
          "type": "choice",
          "prompt": "كم يساوي 7 + 2؟",
          "speak": "كَمْ يُسَاوِي 7 زَائِد 2؟",
-         "show": "⁦7 + 2 = ?⁩",
+         "show": "⁧7 + 2 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5390,7 +5390,7 @@
          "type": "choice",
          "prompt": "كم يساوي 2 + 7؟",
          "speak": "كَمْ يُسَاوِي 2 زَائِد 7؟",
-         "show": "⁦2 + 7 = ?⁩",
+         "show": "⁧2 + 7 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5405,7 +5405,7 @@
          "type": "choice",
          "prompt": "كم يساوي 1 + 1؟",
          "speak": "كَمْ يُسَاوِي 1 زَائِد 1؟",
-         "show": "⁦1 + 1 = ?⁩",
+         "show": "⁧1 + 1 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5420,7 +5420,7 @@
          "type": "choice",
          "prompt": "كم يساوي 9 + 1؟",
          "speak": "كَمْ يُسَاوِي 9 زَائِد 1؟",
-         "show": "⁦9 + 1 = ?⁩",
+         "show": "⁧9 + 1 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5435,7 +5435,7 @@
          "type": "choice",
          "prompt": "كم يساوي 6 + 2؟",
          "speak": "كَمْ يُسَاوِي 6 زَائِد 2؟",
-         "show": "⁦6 + 2 = ?⁩",
+         "show": "⁧6 + 2 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5452,7 +5452,7 @@
        "id": "m2_04",
        "title": "الطرح حتى 10 (1)",
        "icon": "➖",
-       "introBig": "⁦5 - 2 = 3⁩",
+       "introBig": "⁧5 - 2 = 3⁩",
        "introText": "الطرح يعني نأخذ",
        "introSpeak": "خَمْسَة نَاقِص اثْنَيْن يُسَاوِي ثَلَاثَة",
        "exercises": [
@@ -5460,7 +5460,7 @@
          "type": "choice",
          "prompt": "معك 4، أخذنا 1. كم بقي؟",
          "speak": "مَعَكَ 4، أَخَذْنَا 1. كَمْ بَقِيَ؟",
-         "show": "⁦4 - 1 = ?⁩",
+         "show": "⁧4 - 1 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5475,7 +5475,7 @@
          "type": "choice",
          "prompt": "معك 6، أخذنا 4. كم بقي؟",
          "speak": "مَعَكَ 6، أَخَذْنَا 4. كَمْ بَقِيَ؟",
-         "show": "⁦6 - 4 = ?⁩",
+         "show": "⁧6 - 4 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5490,7 +5490,7 @@
          "type": "choice",
          "prompt": "معك 8، أخذنا 1. كم بقي؟",
          "speak": "مَعَكَ 8، أَخَذْنَا 1. كَمْ بَقِيَ؟",
-         "show": "⁦8 - 1 = ?⁩",
+         "show": "⁧8 - 1 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5505,7 +5505,7 @@
          "type": "choice",
          "prompt": "كم يساوي 10 - 2؟",
          "speak": "كَمْ يُسَاوِي 10 نَاقِص 2؟",
-         "show": "⁦10 - 2 = ?⁩",
+         "show": "⁧10 - 2 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5520,7 +5520,7 @@
          "type": "choice",
          "prompt": "كم يساوي 8 - 4؟",
          "speak": "كَمْ يُسَاوِي 8 نَاقِص 4؟",
-         "show": "⁦8 - 4 = ?⁩",
+         "show": "⁧8 - 4 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5535,7 +5535,7 @@
          "type": "choice",
          "prompt": "كم يساوي 7 - 6؟",
          "speak": "كَمْ يُسَاوِي 7 نَاقِص 6؟",
-         "show": "⁦7 - 6 = ?⁩",
+         "show": "⁧7 - 6 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5552,7 +5552,7 @@
        "id": "m2_05",
        "title": "الطرح حتى 10 (2)",
        "icon": "➖",
-       "introBig": "⁦5 - 2 = 3⁩",
+       "introBig": "⁧5 - 2 = 3⁩",
        "introText": "الطرح يعني نأخذ",
        "introSpeak": "خَمْسَة نَاقِص اثْنَيْن يُسَاوِي ثَلَاثَة",
        "exercises": [
@@ -5560,7 +5560,7 @@
          "type": "choice",
          "prompt": "كم يساوي 10 - 8؟",
          "speak": "كَمْ يُسَاوِي 10 نَاقِص 8؟",
-         "show": "⁦10 - 8 = ?⁩",
+         "show": "⁧10 - 8 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5575,7 +5575,7 @@
          "type": "choice",
          "prompt": "كم يساوي 2 - 1؟",
          "speak": "كَمْ يُسَاوِي 2 نَاقِص 1؟",
-         "show": "⁦2 - 1 = ?⁩",
+         "show": "⁧2 - 1 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5590,7 +5590,7 @@
          "type": "choice",
          "prompt": "كم يساوي 6 - 1؟",
          "speak": "كَمْ يُسَاوِي 6 نَاقِص 1؟",
-         "show": "⁦6 - 1 = ?⁩",
+         "show": "⁧6 - 1 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5605,7 +5605,7 @@
          "type": "choice",
          "prompt": "كم يساوي 7 - 1؟",
          "speak": "كَمْ يُسَاوِي 7 نَاقِص 1؟",
-         "show": "⁦7 - 1 = ?⁩",
+         "show": "⁧7 - 1 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5620,7 +5620,7 @@
          "type": "choice",
          "prompt": "كم يساوي 4 - 3؟",
          "speak": "كَمْ يُسَاوِي 4 نَاقِص 3؟",
-         "show": "⁦4 - 3 = ?⁩",
+         "show": "⁧4 - 3 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5635,7 +5635,7 @@
          "type": "choice",
          "prompt": "كم يساوي 7 - 4؟",
          "speak": "كَمْ يُسَاوِي 7 نَاقِص 4؟",
-         "show": "⁦7 - 4 = ?⁩",
+         "show": "⁧7 - 4 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5652,7 +5652,7 @@
        "id": "m2_06",
        "title": "الطرح حتى 10 (3)",
        "icon": "➖",
-       "introBig": "⁦5 - 2 = 3⁩",
+       "introBig": "⁧5 - 2 = 3⁩",
        "introText": "الطرح يعني نأخذ",
        "introSpeak": "خَمْسَة نَاقِص اثْنَيْن يُسَاوِي ثَلَاثَة",
        "exercises": [
@@ -5660,7 +5660,7 @@
          "type": "choice",
          "prompt": "كم يساوي 7 - 2؟",
          "speak": "كَمْ يُسَاوِي 7 نَاقِص 2؟",
-         "show": "⁦7 - 2 = ?⁩",
+         "show": "⁧7 - 2 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5675,7 +5675,7 @@
          "type": "choice",
          "prompt": "كم يساوي 6 - 5؟",
          "speak": "كَمْ يُسَاوِي 6 نَاقِص 5؟",
-         "show": "⁦6 - 5 = ?⁩",
+         "show": "⁧6 - 5 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5690,7 +5690,7 @@
          "type": "choice",
          "prompt": "كم يساوي 3 - 2؟",
          "speak": "كَمْ يُسَاوِي 3 نَاقِص 2؟",
-         "show": "⁦3 - 2 = ?⁩",
+         "show": "⁧3 - 2 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5705,7 +5705,7 @@
          "type": "choice",
          "prompt": "كم يساوي 4 - 2؟",
          "speak": "كَمْ يُسَاوِي 4 نَاقِص 2؟",
-         "show": "⁦4 - 2 = ?⁩",
+         "show": "⁧4 - 2 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5720,7 +5720,7 @@
          "type": "choice",
          "prompt": "كم يساوي 3 - 1؟",
          "speak": "كَمْ يُسَاوِي 3 نَاقِص 1؟",
-         "show": "⁦3 - 1 = ?⁩",
+         "show": "⁧3 - 1 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5735,7 +5735,7 @@
          "type": "choice",
          "prompt": "كم يساوي 2 - 1؟",
          "speak": "كَمْ يُسَاوِي 2 نَاقِص 1؟",
-         "show": "⁦2 - 1 = ?⁩",
+         "show": "⁧2 - 1 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5752,7 +5752,7 @@
        "id": "m2_07",
        "title": "الجمع حتى 20 (1)",
        "icon": "➕",
-       "introBig": "⁦3 + 2 = 5⁩",
+       "introBig": "⁧3 + 2 = 5⁩",
        "introText": "الجمع يعني نضيف",
        "introSpeak": "ثَلَاثَة زَائِد اثْنَيْن يُسَاوِي خَمْسَة",
        "exercises": [
@@ -5760,7 +5760,7 @@
          "type": "choice",
          "prompt": "كم يساوي 16 + 3؟",
          "speak": "كَمْ يُسَاوِي 16 زَائِد 3؟",
-         "show": "⁦16 + 3 = ?⁩",
+         "show": "⁧16 + 3 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5775,7 +5775,7 @@
          "type": "choice",
          "prompt": "كم يساوي 8 + 11؟",
          "speak": "كَمْ يُسَاوِي 8 زَائِد 11؟",
-         "show": "⁦8 + 11 = ?⁩",
+         "show": "⁧8 + 11 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5790,7 +5790,7 @@
          "type": "choice",
          "prompt": "كم يساوي 10 + 8؟",
          "speak": "كَمْ يُسَاوِي 10 زَائِد 8؟",
-         "show": "⁦10 + 8 = ?⁩",
+         "show": "⁧10 + 8 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5805,7 +5805,7 @@
          "type": "choice",
          "prompt": "كم يساوي 14 + 6؟",
          "speak": "كَمْ يُسَاوِي 14 زَائِد 6؟",
-         "show": "⁦14 + 6 = ?⁩",
+         "show": "⁧14 + 6 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5820,7 +5820,7 @@
          "type": "choice",
          "prompt": "كم يساوي 8 + 11؟",
          "speak": "كَمْ يُسَاوِي 8 زَائِد 11؟",
-         "show": "⁦8 + 11 = ?⁩",
+         "show": "⁧8 + 11 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5835,7 +5835,7 @@
          "type": "choice",
          "prompt": "كم يساوي 6 + 8؟",
          "speak": "كَمْ يُسَاوِي 6 زَائِد 8؟",
-         "show": "⁦6 + 8 = ?⁩",
+         "show": "⁧6 + 8 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5852,7 +5852,7 @@
        "id": "m2_08",
        "title": "الجمع حتى 20 (2)",
        "icon": "➕",
-       "introBig": "⁦3 + 2 = 5⁩",
+       "introBig": "⁧3 + 2 = 5⁩",
        "introText": "الجمع يعني نضيف",
        "introSpeak": "ثَلَاثَة زَائِد اثْنَيْن يُسَاوِي خَمْسَة",
        "exercises": [
@@ -5860,7 +5860,7 @@
          "type": "choice",
          "prompt": "كم يساوي 17 + 2؟",
          "speak": "كَمْ يُسَاوِي 17 زَائِد 2؟",
-         "show": "⁦17 + 2 = ?⁩",
+         "show": "⁧17 + 2 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5875,7 +5875,7 @@
          "type": "choice",
          "prompt": "كم يساوي 14 + 1؟",
          "speak": "كَمْ يُسَاوِي 14 زَائِد 1؟",
-         "show": "⁦14 + 1 = ?⁩",
+         "show": "⁧14 + 1 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5890,7 +5890,7 @@
          "type": "choice",
          "prompt": "كم يساوي 13 + 7؟",
          "speak": "كَمْ يُسَاوِي 13 زَائِد 7؟",
-         "show": "⁦13 + 7 = ?⁩",
+         "show": "⁧13 + 7 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5905,7 +5905,7 @@
          "type": "choice",
          "prompt": "كم يساوي 13 + 7؟",
          "speak": "كَمْ يُسَاوِي 13 زَائِد 7؟",
-         "show": "⁦13 + 7 = ?⁩",
+         "show": "⁧13 + 7 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5920,7 +5920,7 @@
          "type": "choice",
          "prompt": "كم يساوي 15 + 4؟",
          "speak": "كَمْ يُسَاوِي 15 زَائِد 4؟",
-         "show": "⁦15 + 4 = ?⁩",
+         "show": "⁧15 + 4 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5935,7 +5935,7 @@
          "type": "choice",
          "prompt": "كم يساوي 15 + 3؟",
          "speak": "كَمْ يُسَاوِي 15 زَائِد 3؟",
-         "show": "⁦15 + 3 = ?⁩",
+         "show": "⁧15 + 3 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5952,7 +5952,7 @@
        "id": "m2_09",
        "title": "الطرح حتى 20 (1)",
        "icon": "➖",
-       "introBig": "⁦5 - 2 = 3⁩",
+       "introBig": "⁧5 - 2 = 3⁩",
        "introText": "الطرح يعني نأخذ",
        "introSpeak": "خَمْسَة نَاقِص اثْنَيْن يُسَاوِي ثَلَاثَة",
        "exercises": [
@@ -5960,7 +5960,7 @@
          "type": "choice",
          "prompt": "كم يساوي 17 - 11؟",
          "speak": "كَمْ يُسَاوِي 17 نَاقِص 11؟",
-         "show": "⁦17 - 11 = ?⁩",
+         "show": "⁧17 - 11 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5975,7 +5975,7 @@
          "type": "choice",
          "prompt": "كم يساوي 15 - 13؟",
          "speak": "كَمْ يُسَاوِي 15 نَاقِص 13؟",
-         "show": "⁦15 - 13 = ?⁩",
+         "show": "⁧15 - 13 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -5990,7 +5990,7 @@
          "type": "choice",
          "prompt": "كم يساوي 16 - 8؟",
          "speak": "كَمْ يُسَاوِي 16 نَاقِص 8؟",
-         "show": "⁦16 - 8 = ?⁩",
+         "show": "⁧16 - 8 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6005,7 +6005,7 @@
          "type": "choice",
          "prompt": "كم يساوي 14 - 2؟",
          "speak": "كَمْ يُسَاوِي 14 نَاقِص 2؟",
-         "show": "⁦14 - 2 = ?⁩",
+         "show": "⁧14 - 2 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6020,7 +6020,7 @@
          "type": "choice",
          "prompt": "كم يساوي 12 - 7؟",
          "speak": "كَمْ يُسَاوِي 12 نَاقِص 7؟",
-         "show": "⁦12 - 7 = ?⁩",
+         "show": "⁧12 - 7 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6035,7 +6035,7 @@
          "type": "choice",
          "prompt": "كم يساوي 20 - 9؟",
          "speak": "كَمْ يُسَاوِي 20 نَاقِص 9؟",
-         "show": "⁦20 - 9 = ?⁩",
+         "show": "⁧20 - 9 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6052,7 +6052,7 @@
        "id": "m2_10",
        "title": "الطرح حتى 20 (2)",
        "icon": "➖",
-       "introBig": "⁦5 - 2 = 3⁩",
+       "introBig": "⁧5 - 2 = 3⁩",
        "introText": "الطرح يعني نأخذ",
        "introSpeak": "خَمْسَة نَاقِص اثْنَيْن يُسَاوِي ثَلَاثَة",
        "exercises": [
@@ -6060,7 +6060,7 @@
          "type": "choice",
          "prompt": "كم يساوي 11 - 6؟",
          "speak": "كَمْ يُسَاوِي 11 نَاقِص 6؟",
-         "show": "⁦11 - 6 = ?⁩",
+         "show": "⁧11 - 6 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6075,7 +6075,7 @@
          "type": "choice",
          "prompt": "كم يساوي 11 - 10؟",
          "speak": "كَمْ يُسَاوِي 11 نَاقِص 10؟",
-         "show": "⁦11 - 10 = ?⁩",
+         "show": "⁧11 - 10 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6090,7 +6090,7 @@
          "type": "choice",
          "prompt": "كم يساوي 16 - 7؟",
          "speak": "كَمْ يُسَاوِي 16 نَاقِص 7؟",
-         "show": "⁦16 - 7 = ?⁩",
+         "show": "⁧16 - 7 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6105,7 +6105,7 @@
          "type": "choice",
          "prompt": "كم يساوي 17 - 7؟",
          "speak": "كَمْ يُسَاوِي 17 نَاقِص 7؟",
-         "show": "⁦17 - 7 = ?⁩",
+         "show": "⁧17 - 7 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6120,7 +6120,7 @@
          "type": "choice",
          "prompt": "كم يساوي 16 - 6؟",
          "speak": "كَمْ يُسَاوِي 16 نَاقِص 6؟",
-         "show": "⁦16 - 6 = ?⁩",
+         "show": "⁧16 - 6 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6135,7 +6135,7 @@
          "type": "choice",
          "prompt": "كم يساوي 17 - 16؟",
          "speak": "كَمْ يُسَاوِي 17 نَاقِص 16؟",
-         "show": "⁦17 - 16 = ?⁩",
+         "show": "⁧17 - 16 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6352,7 +6352,7 @@
        "id": "m2_13",
        "title": "جمع العشرات حتى 100",
        "icon": "💯",
-       "introBig": "⁦30 + 20 = 50⁩",
+       "introBig": "⁧30 + 20 = 50⁩",
        "introText": "نجمع ونطرح العشرات",
        "introSpeak": "هَيَّا نَحْسُبُ بِالعَشَرَات",
        "exercises": [
@@ -6360,7 +6360,7 @@
          "type": "choice",
          "prompt": "كم يساوي 30 + 20؟",
          "speak": "كَمْ يُسَاوِي 30 زَائِد 20؟",
-         "show": "⁦30 + 20 = ?⁩",
+         "show": "⁧30 + 20 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6375,7 +6375,7 @@
          "type": "choice",
          "prompt": "كم يساوي 60 + 40؟",
          "speak": "كَمْ يُسَاوِي 60 زَائِد 40؟",
-         "show": "⁦60 + 40 = ?⁩",
+         "show": "⁧60 + 40 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6390,7 +6390,7 @@
          "type": "choice",
          "prompt": "كم يساوي 40 + 30؟",
          "speak": "كَمْ يُسَاوِي 40 زَائِد 30؟",
-         "show": "⁦40 + 30 = ?⁩",
+         "show": "⁧40 + 30 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6405,7 +6405,7 @@
          "type": "choice",
          "prompt": "كم يساوي 10 + 20؟",
          "speak": "كَمْ يُسَاوِي 10 زَائِد 20؟",
-         "show": "⁦10 + 20 = ?⁩",
+         "show": "⁧10 + 20 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6420,7 +6420,7 @@
          "type": "choice",
          "prompt": "كم يساوي 80 + 10؟",
          "speak": "كَمْ يُسَاوِي 80 زَائِد 10؟",
-         "show": "⁦80 + 10 = ?⁩",
+         "show": "⁧80 + 10 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6435,7 +6435,7 @@
          "type": "choice",
          "prompt": "كم يساوي 40 + 40؟",
          "speak": "كَمْ يُسَاوِي 40 زَائِد 40؟",
-         "show": "⁦40 + 40 = ?⁩",
+         "show": "⁧40 + 40 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6452,7 +6452,7 @@
        "id": "m2_14",
        "title": "طرح العشرات حتى 100",
        "icon": "💯",
-       "introBig": "⁦70 - 40 = 30⁩",
+       "introBig": "⁧70 - 40 = 30⁩",
        "introText": "نجمع ونطرح العشرات",
        "introSpeak": "هَيَّا نَحْسُبُ بِالعَشَرَات",
        "exercises": [
@@ -6460,7 +6460,7 @@
          "type": "choice",
          "prompt": "كم يساوي 30 - 20؟",
          "speak": "كَمْ يُسَاوِي 30 نَاقِص 20؟",
-         "show": "⁦30 - 20 = ?⁩",
+         "show": "⁧30 - 20 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6475,7 +6475,7 @@
          "type": "choice",
          "prompt": "كم يساوي 60 - 30؟",
          "speak": "كَمْ يُسَاوِي 60 نَاقِص 30؟",
-         "show": "⁦60 - 30 = ?⁩",
+         "show": "⁧60 - 30 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6490,7 +6490,7 @@
          "type": "choice",
          "prompt": "كم يساوي 100 - 20؟",
          "speak": "كَمْ يُسَاوِي 100 نَاقِص 20؟",
-         "show": "⁦100 - 20 = ?⁩",
+         "show": "⁧100 - 20 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6505,7 +6505,7 @@
          "type": "choice",
          "prompt": "كم يساوي 80 - 30؟",
          "speak": "كَمْ يُسَاوِي 80 نَاقِص 30؟",
-         "show": "⁦80 - 30 = ?⁩",
+         "show": "⁧80 - 30 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6520,7 +6520,7 @@
          "type": "choice",
          "prompt": "كم يساوي 50 - 40؟",
          "speak": "كَمْ يُسَاوِي 50 نَاقِص 40؟",
-         "show": "⁦50 - 40 = ?⁩",
+         "show": "⁧50 - 40 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -6535,7 +6535,7 @@
          "type": "choice",
          "prompt": "كم يساوي 70 - 50؟",
          "speak": "كَمْ يُسَاوِي 70 نَاقِص 50؟",
-         "show": "⁦70 - 50 = ?⁩",
+         "show": "⁧70 - 50 = ؟⁩",
          "count": 0,
          "countEmoji": "",
          "options": [
@@ -9655,7 +9655,7 @@
      "type": "choice",
      "prompt": "كم يساوي 4 + 3؟",
      "speak": "كَمْ يُسَاوِي 4 زَائِد 3؟",
-     "show": "⁦4 + 3 = ?⁩",
+     "show": "⁧4 + 3 = ؟⁩",
      "count": 0,
      "countEmoji": "",
      "options": [
@@ -9673,7 +9673,7 @@
      "type": "choice",
      "prompt": "كم يساوي 9 - 5؟",
      "speak": "كَمْ يُسَاوِي 9 نَاقِص 5؟",
-     "show": "⁦9 - 5 = ?⁩",
+     "show": "⁧9 - 5 = ؟⁩",
      "count": 0,
      "countEmoji": "",
      "options": [
@@ -9691,7 +9691,7 @@
      "type": "choice",
      "prompt": "كم يساوي 12 + 5؟",
      "speak": "كَمْ يُسَاوِي 12 زَائِد 5؟",
-     "show": "⁦12 + 5 = ?⁩",
+     "show": "⁧12 + 5 = ؟⁩",
      "count": 0,
      "countEmoji": "",
      "options": [

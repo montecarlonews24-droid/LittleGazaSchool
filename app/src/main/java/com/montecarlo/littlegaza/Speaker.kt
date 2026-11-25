@@ -63,6 +63,8 @@ class Speaker(ctx: Context) : TextToSpeech.OnInitListener {
         pending = null
     }
 
+    fun hasClip(text: String): Boolean = text.isNotBlank() && clipName(text) in clips
+
     /** Speaks one of the fixed phrases from content.json ("praise", "retry", …). */
     fun say(key: String) {
         phrases[key]?.let { speak(it) }

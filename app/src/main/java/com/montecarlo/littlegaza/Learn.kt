@@ -53,6 +53,7 @@ fun ExerciseView(
     var solved by remember { mutableStateOf(false) }
     var firstTry by remember { mutableStateOf(true) }
     val say = ex.speak.ifBlank { ex.prompt }
+    val canHear = speaker.hasClip(say)
 
     LaunchedEffect(Unit) { speaker.speak(say) }
     LaunchedEffect(solved) {
@@ -94,8 +95,20 @@ fun ExerciseView(
         }
         Gap(8)
         if (ex.type == "listen") {
-            BigButton("🔊  اسمع", color = Orange) { speaker.speak(say) }
+            if (canHear) {
+                BigButton("🔊  اسمع", color = Orange) { speaker.speak(say) }
+            } else {
+                // Recording not ready yet: show the word so the question can still be answered.
+                Text(
+                    Speaker.clean(say).trimEnd('.', '،'),
+                    fontSize = 44.sp, fontWeight = FontWeight.Bold, color = Orange, textAlign = TextAlign.Center
+                )
+            }
             Gap(8)
+        }
+        if (!canHear) {
+            Text("🔇 صوت هذا السؤال قيد التجهيز", fontSize = 14.sp, color = Color.Gray)
+            Gap(4)
         }
         if (ex.show.isNotBlank()) {
             val size = when {

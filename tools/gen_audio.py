@@ -33,6 +33,11 @@ def sentences():
     # Placement test first: it's the first thing every child hears.
     for k in d.get("placement", {}):
         out += [q["exercise"]["speak"] or q["exercise"]["prompt"] for q in d["placement"][k]]
+    # "Listen" exercises can't be answered without sound, so they come next.
+    for s in d["subjects"]:
+        for lv in s["levels"]:
+            for l in lv["lessons"]:
+                out += [e["speak"] for e in l["exercises"] if e["type"] == "listen" and e["speak"]]
     for s in d["subjects"]:
         for lv in s["levels"]:
             for l in lv["lessons"]:
