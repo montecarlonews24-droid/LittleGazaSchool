@@ -407,8 +407,8 @@ private fun ParentDashboard(
         Text("الصوت", fontSize = 20.sp, fontWeight = FontWeight.Bold, color = Orange)
         Gap(4)
         Text(
-            if (speaker.clipCount > 0) "🎙️ صوت مسجّل جاهز لـ ${speaker.clipCount} جملة. الباقي بصوت الهاتف."
-            else "🎙️ الصوت المسجّل غير متوفّر بعد، يُستخدم صوت الهاتف.",
+            if (speaker.clipCount > 0) "🎙️ صوت مسجّل جاهز لـ ${speaker.clipCount} جملة. الباقي بدون صوت حتى يجهز."
+            else "🎙️ الصوت المسجّل غير متوفّر بعد.",
             fontSize = 15.sp, color = Ink
         )
         Gap(6)

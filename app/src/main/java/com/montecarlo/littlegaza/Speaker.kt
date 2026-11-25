@@ -72,8 +72,8 @@ class Speaker(ctx: Context) : TextToSpeech.OnInitListener {
         if (text.isBlank()) return
         stop()
         val clip = clipName(text)
-        if (clip in clips && playClip(clip)) return
-        ttsSpeak(text)
+        if (clip in clips) playClip(clip)
+        // No phone-voice fallback: it mispronounces Arabic. Sentences without a recorded clip stay silent.
     }
 
     private fun playClip(name: String): Boolean = try {
