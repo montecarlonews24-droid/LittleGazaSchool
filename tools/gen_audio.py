@@ -30,6 +30,9 @@ def clip_name(text):
 def sentences():
     d = json.load(open(CONTENT, encoding="utf-8"))
     out = list(d.get("phrases", {}).values())
+    # Placement test first: it's the first thing every child hears.
+    for k in d.get("placement", {}):
+        out += [q["exercise"]["speak"] or q["exercise"]["prompt"] for q in d["placement"][k]]
     for s in d["subjects"]:
         for lv in s["levels"]:
             for l in lv["lessons"]:
