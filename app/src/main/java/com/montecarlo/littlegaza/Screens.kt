@@ -77,8 +77,7 @@ fun ProfilesScreen(
             listOf(
                 Triple("🌿", "ركن الهدوء", onCalm),
                 Triple("👪", "للأهل والمعلمين", onParent),
-                Triple("📲", "شارك التطبيق", onShare),
-                Triple("🤝", "كيف تساعد", onHelp)
+                Triple("📲", "شارك التطبيق", onShare)
             )
         ) { (e, t, f) -> Tile(e, t, Modifier.weight(1f), bg = Soft, onClick = f) }
         Gap(8)
@@ -308,7 +307,8 @@ fun ParentScreen(
     onBack: () -> Unit,
     onSave: (Profile) -> Unit,
     onDelete: (String) -> Unit,
-    onEastern: (Boolean) -> Unit
+    onEastern: (Boolean) -> Unit,
+    onHelp: () -> Unit
 ) {
     var unlocked by remember { mutableStateOf(false) }
     var pinInput by remember { mutableStateOf("") }
@@ -348,7 +348,7 @@ fun ParentScreen(
             Gap(12)
             Text("نسيت الرقم؟ امسح بيانات التطبيق من إعدادات الهاتف (سيُحذف تقدّم الأطفال).", fontSize = 14.sp, color = Color.Gray)
         } else {
-            ParentDashboard(store, profiles, content, eastern, speaker, confirmDelete, { confirmDelete = it }, onSave, onDelete, onEastern) {
+            ParentDashboard(store, profiles, content, eastern, speaker, confirmDelete, { confirmDelete = it }, onSave, onDelete, onEastern, onHelp) {
                 unlocked = false; pinInput = ""
             }
         }
@@ -367,6 +367,7 @@ private fun ParentDashboard(
     onSave: (Profile) -> Unit,
     onDelete: (String) -> Unit,
     onEastern: (Boolean) -> Unit,
+    onHelp: () -> Unit,
     onLock: () -> Unit
 ) {
     Column(Modifier.fillMaxWidth()) {
@@ -436,6 +437,8 @@ private fun ParentDashboard(
         }
         Text("إذا تغيّر الصوت بعد التنزيل، أغلق التطبيق وافتحه من جديد.", fontSize = 14.sp, color = Color.Gray)
         Gap(12)
+        BigButton("🤝 كيف تساعد", Modifier.fillMaxWidth(), color = Orange, onClick = onHelp)
+        Gap(8)
         BigButton("تغيير الرقم السري", Modifier.fillMaxWidth(), color = Color(0xFF6B8F7E)) {
             store.pin = null; onLock()
         }

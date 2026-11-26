@@ -167,7 +167,8 @@ fun LittleGazaApp(content: Content, store: Store, speaker: Speaker) {
                             onBack = { pop() },
                             onSave = { save(it) },
                             onDelete = { store.delete(it); profiles = store.profiles() },
-                            onEastern = { store.easternDigits = it; eastern = it }
+                            onEastern = { store.easternDigits = it; eastern = it },
+                            onHelp = { push(Screen.Help) }
                         )
 
                         is Screen.Help -> HelpScreen(onBack = { pop() }, onOpen = { openLink(ctx, it) })
