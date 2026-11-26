@@ -72,7 +72,9 @@ jobs:
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: |
-          echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/upload.jks"
+          echo "$KEYSTORE_BASE64" | tr -d ' \r\n' | base64 -d > "$RUNNER_TEMP/upload.jks"
+          echo "keystore size: $(wc -c < "$RUNNER_TEMP/upload.jks")  sha: $(sha256sum "$RUNNER_TEMP/upload.jks" | cut -c1-16)"
+          keytool -list -keystore "$RUNNER_TEMP/upload.jks" -storepass "$KEYSTORE_PASSWORD" 2>&1 | grep -iE "entry|error|password|keystore" || true
           export KEYSTORE_PATH="$RUNNER_TEMP/upload.jks"
           gradle :app:bundleRelease :app:assembleRelease --no-daemon --stacktrace
 
