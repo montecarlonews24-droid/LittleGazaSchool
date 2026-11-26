@@ -57,6 +57,11 @@ android {
         abi { enableSplit = false }
     }
 
+    lint {
+        // Skip the extra release lint pass (it downloads many tools and slows/fails CI builds).
+        checkReleaseBuilds = false
+    }
+
     packaging {
         resources { excludes += "/META-INF/{AL2.0,LGPL2.1}" }
     }
