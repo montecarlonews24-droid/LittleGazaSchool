@@ -74,6 +74,9 @@ jobs:
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: |
           # The key text is split in two secrets (phones cut off very long pastes).
+          P1=$(printf '%s' "$KEYSTORE_BASE64" | tr -d ' \r\n'); P2=$(printf '%s' "$KEYSTORE_BASE64_2" | tr -d ' \r\n')
+          echo "part1: ${#P1} chars, ends '${P1: -5}', bad chars: $(printf '%s' "$P1" | tr -d 'A-Za-z0-9+/=' | wc -c)"
+          echo "part2: ${#P2} chars, starts '${P2:0:5}', bad chars: $(printf '%s' "$P2" | tr -d 'A-Za-z0-9+/=' | wc -c)"
           printf '%s%s' "$KEYSTORE_BASE64" "$KEYSTORE_BASE64_2" | tr -d ' \r\n' | base64 -d > "$RUNNER_TEMP/upload.jks"
           echo "keystore size: $(wc -c < "$RUNNER_TEMP/upload.jks")  sha: $(sha256sum "$RUNNER_TEMP/upload.jks" | cut -c1-16)"
           keytool -list -keystore "$RUNNER_TEMP/upload.jks" -storepass "$KEYSTORE_PASSWORD" 2>&1 | grep -iE "entry|error|password|keystore" || true
