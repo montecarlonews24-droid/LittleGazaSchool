@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+      KEYSTORE_BASE64_2: ${{ secrets.KEYSTORE_BASE64_2 }}
       GEMINI_KEYS: ${{ secrets.GEMINI_KEYS }}
     steps:
       - uses: actions/checkout@v4
@@ -72,7 +73,8 @@ jobs:
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: |
-          echo "$KEYSTORE_BASE64" | tr -d ' \r\n' | base64 -d > "$RUNNER_TEMP/upload.jks"
+          # The key text is split in two secrets (phones cut off very long pastes).
+          printf '%s%s' "$KEYSTORE_BASE64" "$KEYSTORE_BASE64_2" | tr -d ' \r\n' | base64 -d > "$RUNNER_TEMP/upload.jks"
           echo "keystore size: $(wc -c < "$RUNNER_TEMP/upload.jks")  sha: $(sha256sum "$RUNNER_TEMP/upload.jks" | cut -c1-16)"
           keytool -list -keystore "$RUNNER_TEMP/upload.jks" -storepass "$KEYSTORE_PASSWORD" 2>&1 | grep -iE "entry|error|password|keystore" || true
           export KEYSTORE_PATH="$RUNNER_TEMP/upload.jks"
