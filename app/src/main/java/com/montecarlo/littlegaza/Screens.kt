@@ -439,6 +439,11 @@ private fun ParentDashboard(
         Gap(12)
         BigButton("🤝 كيف تساعد", Modifier.fillMaxWidth(), color = Orange, onClick = onHelp)
         Gap(8)
+        val pctx = androidx.compose.ui.platform.LocalContext.current
+        BigButton("🔒 سياسة الخصوصية", Modifier.fillMaxWidth(), color = Color(0xFF6B8F7E)) {
+            openLink(pctx, "https://montecarlonews24-droid.github.io/LittleGazaSchool/privacy.html")
+        }
+        Gap(8)
         BigButton("تغيير الرقم السري", Modifier.fillMaxWidth(), color = Color(0xFF6B8F7E)) {
             store.pin = null; onLock()
         }
